@@ -52,7 +52,7 @@ namespace Web.Generics.Tests.Authentication
         [TestInitialize]
         public void Initialize() {
             session.BeginTransaction();
-            userRepository = new UserRepository(session);
+            userRepository = new UserRepository();
             identityService = new IdentityService<User>(userRepository);
 
             password = "neoistheone";
@@ -81,14 +81,14 @@ namespace Web.Generics.Tests.Authentication
         [TestMethod]
         public void Register_with_valid_data_inserts_user_into_database_and_returns_success()
         {
-            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));
+            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));
         }
 
         [TestMethod]
         public void Register_with_existing_username_returns_ExistingUsername_state()
         {            
             userRepository.SaveOrUpdate(user);
-            Assert.AreEqual(RegisterStatus.UsernameAlreadyExists, identityService.Register(user2, u => u.Username, u => u.Email, (s) => user2.Password = s, "minhasenha"));
+            Assert.AreEqual(RegisterStatus.UsernameAlreadyExists, identityService.Register(user2, u => u.Username, u => u.Email, u => u.Password, "minhasenha"));
         }
 
         // Register with existing e-mail returns ExistingEmail state
@@ -96,7 +96,7 @@ namespace Web.Generics.Tests.Authentication
         public void Register_with_existing_email_returns_ExistingEmail_state() 
         {
             userRepository.SaveOrUpdate(user);
-            Assert.AreEqual(RegisterStatus.EmailAlreadyExists, identityService.Register(user2, u => u.Username, u => u.Email, (s) => user2.Password = s, "minhasenha"));
+            Assert.AreEqual(RegisterStatus.EmailAlreadyExists, identityService.Register(user2, u => u.Username, u => u.Email, u => u.Password, "minhasenha"));
         }
 
         [TestMethod]
@@ -110,7 +110,7 @@ namespace Web.Generics.Tests.Authentication
         public void Register_with_null_data_throws_argumentnullexception()
         {
             user = new User();
-            identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password);
+            identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password);
         }
 
         [TestMethod]
@@ -129,21 +129,21 @@ namespace Web.Generics.Tests.Authentication
         [TestMethod]
         public void Validate_existing_user_with_correct_password_returns_true()
         {
-            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));
+            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));
             Assert.IsTrue(identityService.Validate("john_doe", password));
         }
 
         [TestMethod]
         public void Validate_existing_user_with_incorrect_password_returns_false()
         {
-            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));
+            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));
             Assert.IsFalse(identityService.Validate("john_doe", "something"));
         }
 
         [TestMethod]
         public void Validate_non_existing_user_returns_false()
         {
-            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));
+            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));
             Assert.IsFalse(identityService.Validate("huckleberry finn", "something"));
         }
 
@@ -151,14 +151,14 @@ namespace Web.Generics.Tests.Authentication
         [TestMethod]
         public void User_changing_password_with_correct_password_and_valid_new_password_returns_success()
         {
-            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));        
+            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));        
             Assert.AreEqual(PasswordChangeStatus.Success, identityService.ChangePassword("john_doe", password, "newPassword"));
         }
 
         [TestMethod]
         public void Admin_changing_password_with_valid_new_password_returns_Success()
         {
-            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));
+            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));
             Assert.AreEqual(PasswordChangeStatus.Success, identityService.AdministrativePasswordChange("john_doe", "newPassword"));
         }
 
@@ -167,7 +167,7 @@ namespace Web.Generics.Tests.Authentication
         [TestMethod]
         public void User_changing_password_with_incorrect_current_password_returns_IncorrectCurrentPassword() 
         {
-            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));
+            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));
             Assert.AreEqual(PasswordChangeStatus.InvalidCurrentPassword, identityService.ChangePassword("john_doe", "wrongPassword", "newPassword"));
         }
 
@@ -176,7 +176,7 @@ namespace Web.Generics.Tests.Authentication
         [TestMethod]
         public void Password_reset_for_existing_user_changes_password_and_returns_it()
         {
-            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));
+            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));
             Assert.IsNotNull(identityService.ResetPassword("john_doe"));
         }
 
@@ -190,7 +190,7 @@ namespace Web.Generics.Tests.Authentication
         [TestMethod]
         public void Password_reset_for_existing_user_with_valid_validation_key_changes_password_and_returns_it()
         {
-            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));
+            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));
             string validationKey = identityService.GenerateValidationKey("john.doe@inspira.com.br");
             Assert.IsNotNull(validationKey);
             Assert.IsNotNull(identityService.ResetPasswordWithValidationKey("john_doe", validationKey));
@@ -199,7 +199,7 @@ namespace Web.Generics.Tests.Authentication
         [TestMethod]
         public void Password_resetfor_existing_user_with_invalid_validation_key_returns_null()
         {
-            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));
+            Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));
 
             string validationKey = identityService.GenerateValidationKey("john.doe@inspira.com.br");
 
@@ -220,7 +220,7 @@ namespace Web.Generics.Tests.Authentication
         {
             try
             {
-                Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, (s) => user.Password = s, password));
+                Assert.AreEqual(RegisterStatus.Success, identityService.Register(user, u => u.Username, u => u.Email, u => u.Password, password));
                 Assert.IsNotNull(identityService.GenerateValidationKey("john.doe@inspira.com.br"));
             }
             catch
