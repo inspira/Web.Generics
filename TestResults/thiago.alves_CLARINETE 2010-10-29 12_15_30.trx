@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="17570988-8960-40c6-9f5c-04a1a8f3a212" name="thiago.alves@CLARINETE 2010-10-29 12:15:30" runUser="Clarinete\thiago.alves" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="40bc60cf-8d27-4fbf-86ee-7b0ec5bd2f9c">
+    <Deployment runDeploymentRoot="thiago.alves_CLARINETE 2010-10-29 12_15_30">
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\System.Data.SQLite.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Inspira.Blog.DomainModel\bin\Debug\Inspira.Blog.DomainModel.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\log4net.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\bin\Debug\Web.Generics.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\NHibernate.ByteCode.LinFu.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Web\bin\Debug\Web.Generics.Web.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Futures\bin\Debug\Web.Generics.Futures.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Inspira.Blog\bin\Debug\Inspira.Blog.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\Moq\Moq.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.WebMvc\bin\Debug\Web.Generics.WebMvc.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\FluentNHibernate.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-29T12:15:30.3708207-02:00" queuing="2010-10-29T12:15:30.5408209-02:00" start="2010-10-29T12:15:30.5508210-02:00" finish="2010-10-29T12:15:31.0708217-02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="20" executed="20" error="20" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CLARINETE" outcome="Warning" timestamp="2010-10-29T12:15:30.5408209-02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Practices.ServiceLocation' directly or indirectly referenced by the test container 'c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Validate_existing_user_with_incorrect_password_returns_false" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="fff7fde5-aa39-2877-3bc5-50f06ba7731e">
+      <Execution id="beb9c44e-89f7-4053-a9cd-edb1104d3222" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_existing_user_with_incorrect_password_returns_false" />
+    </UnitTest>
+    <UnitTest name="Password_reset_for_non_existing_user_returns_null" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="34545253-5fca-47c3-aef0-bbb50e8a823a">
+      <Execution id="a93a5e4b-6538-4fd4-a071-3f6e94c698e9" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Password_reset_for_non_existing_user_returns_null" />
+    </UnitTest>
+    <UnitTest name="Register_with_valid_data_inserts_user_into_database_and_returns_success" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="c5c2e3d8-1b24-09f0-43aa-e4693e886451">
+      <Execution id="87793f73-822d-409a-b3dc-306af0bce5b0" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_valid_data_inserts_user_into_database_and_returns_success" />
+    </UnitTest>
+    <UnitTest name="Password_reset_with_validation_key_for_non_existing_user_returns_null" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="60c57fbf-cbfc-824a-283f-13fdf8b44218">
+      <Execution id="d137a2d5-b529-4b66-9ebe-82994a117e4a" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Password_reset_with_validation_key_for_non_existing_user_returns_null" />
+    </UnitTest>
+    <UnitTest name="Password_reset_for_existing_user_changes_password_and_returns_it" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="781c6add-8d4a-cf64-6383-1134d95f165e">
+      <Execution id="7e0401e5-2501-4a10-95ca-9d8722ebe642" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Password_reset_for_existing_user_changes_password_and_returns_it" />
+    </UnitTest>
+    <UnitTest name="Admin_changing_password_with_valid_new_password_returns_Success" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="32799526-a780-07c0-3298-5cb494a724b2">
+      <Execution id="c7295c64-83ab-4dd2-a8ce-d582b73088ce" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Admin_changing_password_with_valid_new_password_returns_Success" />
+    </UnitTest>
+    <UnitTest name="Register_fail_must_rollback_transaction" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="7c1f9829-2243-a68a-054d-4ef62fe678e9">
+      <Execution id="e0e82e53-4d99-4468-9825-e93dbd0610d3" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_fail_must_rollback_transaction" />
+    </UnitTest>
+    <UnitTest name="GenerateValidationKey_for_nonexisting_email_returns_null" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="ff4f249f-2e32-9cfc-1f5a-e354a09a65e9">
+      <Execution id="bac64b98-b32a-4b53-827a-c1239306f0bc" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GenerateValidationKey_for_nonexisting_email_returns_null" />
+    </UnitTest>
+    <UnitTest name="GenerateValidationKey_for_existing_email_generates_key_and_returns_it" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="432241a0-da4c-fbc6-a453-14729eff3388">
+      <Execution id="1145738f-2285-4ae6-b1e3-544abe60d7ad" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GenerateValidationKey_for_existing_email_generates_key_and_returns_it" />
+    </UnitTest>
+    <UnitTest name="Register_with_null_data_throws_argumentnullexception" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="f706643b-9f9f-e05f-ab65-95347000f26f">
+      <Execution id="5f390bd0-1007-4146-a0bd-11dec2f5ffbc" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_null_data_throws_argumentnullexception" />
+    </UnitTest>
+    <UnitTest name="Register_with_existing_username_returns_ExistingUsername_state" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="32bcb943-d87d-582b-883d-16c950347d82">
+      <Execution id="64582546-5896-47df-b6cf-54e370f3924e" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_existing_username_returns_ExistingUsername_state" />
+    </UnitTest>
+    <UnitTest name="User_changing_password_with_correct_password_and_valid_new_password_returns_success" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="ecfad25d-faaa-fe1a-4b04-cd16862ed8d3">
+      <Execution id="f96b5467-2078-4828-9888-7efbc6e7ff03" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="User_changing_password_with_correct_password_and_valid_new_password_returns_success" />
+    </UnitTest>
+    <UnitTest name="Register_with_existing_email_returns_ExistingEmail_state" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="36f43dad-d2ef-5589-a0ea-a16f2f206188">
+      <Execution id="47b1c28b-9fbb-481d-ad00-b20e8f59d4ed" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_existing_email_returns_ExistingEmail_state" />
+    </UnitTest>
+    <UnitTest name="Password_resetfor_existing_user_with_invalid_validation_key_returns_null" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="c72f3490-fe46-9c05-8367-de895c625e81">
+      <Execution id="ff978736-7f20-45fb-bcd9-a480ca67bf7e" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Password_resetfor_existing_user_with_invalid_validation_key_returns_null" />
+    </UnitTest>
+    <UnitTest name="Register_with_invalid_data_returns_invalid_state" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="57c1a421-0826-0f23-36c0-8fc7bea8850e">
+      <Execution id="f8841081-0722-4b09-92e4-b995450c2e9f" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_invalid_data_returns_invalid_state" />
+    </UnitTest>
+    <UnitTest name="Password_reset_for_existing_user_with_valid_validation_key_changes_password_and_returns_it" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="1084cf5d-1d85-3de9-19f5-6dcf0518d466">
+      <Execution id="c7381723-5545-48c0-abe7-450deb9440e2" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Password_reset_for_existing_user_with_valid_validation_key_changes_password_and_returns_it" />
+    </UnitTest>
+    <UnitTest name="Register_with_null_role_throws_argumentNullException" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="a8222d24-072c-d71d-3bd0-b76b0e3f4666">
+      <Execution id="0084c6b5-1c39-4e5f-aa60-b7f5e0692b7e" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_null_role_throws_argumentNullException" />
+    </UnitTest>
+    <UnitTest name="Validate_non_existing_user_returns_false" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="08764d60-9337-470b-c9d5-3d67f1bc6ade">
+      <Execution id="a20e0617-96d2-4048-bb36-3ddf1f84d7a2" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_non_existing_user_returns_false" />
+    </UnitTest>
+    <UnitTest name="User_changing_password_with_incorrect_current_password_returns_IncorrectCurrentPassword" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="23238c2f-42df-4ea9-f00e-090d63fe7c4c">
+      <Execution id="134068cb-212e-422a-ba86-28c42fc9ba7a" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="User_changing_password_with_incorrect_current_password_returns_IncorrectCurrentPassword" />
+    </UnitTest>
+    <UnitTest name="Validate_existing_user_with_correct_password_returns_true" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="0cc02efb-c97e-ea3e-3271-59d2c276e278">
+      <Execution id="1f22e913-ad49-4038-bd36-a007d0b5946a" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_existing_user_with_correct_password_returns_true" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="08764d60-9337-470b-c9d5-3d67f1bc6ade" executionId="a20e0617-96d2-4048-bb36-3ddf1f84d7a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0cc02efb-c97e-ea3e-3271-59d2c276e278" executionId="1f22e913-ad49-4038-bd36-a007d0b5946a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1084cf5d-1d85-3de9-19f5-6dcf0518d466" executionId="c7381723-5545-48c0-abe7-450deb9440e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23238c2f-42df-4ea9-f00e-090d63fe7c4c" executionId="134068cb-212e-422a-ba86-28c42fc9ba7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32799526-a780-07c0-3298-5cb494a724b2" executionId="c7295c64-83ab-4dd2-a8ce-d582b73088ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32bcb943-d87d-582b-883d-16c950347d82" executionId="64582546-5896-47df-b6cf-54e370f3924e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34545253-5fca-47c3-aef0-bbb50e8a823a" executionId="a93a5e4b-6538-4fd4-a071-3f6e94c698e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36f43dad-d2ef-5589-a0ea-a16f2f206188" executionId="47b1c28b-9fbb-481d-ad00-b20e8f59d4ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="432241a0-da4c-fbc6-a453-14729eff3388" executionId="1145738f-2285-4ae6-b1e3-544abe60d7ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57c1a421-0826-0f23-36c0-8fc7bea8850e" executionId="f8841081-0722-4b09-92e4-b995450c2e9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60c57fbf-cbfc-824a-283f-13fdf8b44218" executionId="d137a2d5-b529-4b66-9ebe-82994a117e4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="781c6add-8d4a-cf64-6383-1134d95f165e" executionId="7e0401e5-2501-4a10-95ca-9d8722ebe642" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c1f9829-2243-a68a-054d-4ef62fe678e9" executionId="e0e82e53-4d99-4468-9825-e93dbd0610d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8222d24-072c-d71d-3bd0-b76b0e3f4666" executionId="0084c6b5-1c39-4e5f-aa60-b7f5e0692b7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5c2e3d8-1b24-09f0-43aa-e4693e886451" executionId="87793f73-822d-409a-b3dc-306af0bce5b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c72f3490-fe46-9c05-8367-de895c625e81" executionId="ff978736-7f20-45fb-bcd9-a480ca67bf7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ecfad25d-faaa-fe1a-4b04-cd16862ed8d3" executionId="f96b5467-2078-4828-9888-7efbc6e7ff03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f706643b-9f9f-e05f-ab65-95347000f26f" executionId="5f390bd0-1007-4146-a0bd-11dec2f5ffbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff4f249f-2e32-9cfc-1f5a-e354a09a65e9" executionId="bac64b98-b32a-4b53-827a-c1239306f0bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fff7fde5-aa39-2877-3bc5-50f06ba7731e" executionId="beb9c44e-89f7-4053-a9cd-edb1104d3222" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a20e0617-96d2-4048-bb36-3ddf1f84d7a2" testId="08764d60-9337-470b-c9d5-3d67f1bc6ade" testName="Validate_non_existing_user_returns_false" computerName="CLARINETE" startTime="2010-10-29T12:15:30.5508210-02:00" endTime="2010-10-29T12:15:30.9108215-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a20e0617-96d2-4048-bb36-3ddf1f84d7a2">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f22e913-ad49-4038-bd36-a007d0b5946a" testId="0cc02efb-c97e-ea3e-3271-59d2c276e278" testName="Validate_existing_user_with_correct_password_returns_true" computerName="CLARINETE" startTime="2010-10-29T12:15:30.9108215-02:00" endTime="2010-10-29T12:15:30.9208215-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f22e913-ad49-4038-bd36-a007d0b5946a">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7381723-5545-48c0-abe7-450deb9440e2" testId="1084cf5d-1d85-3de9-19f5-6dcf0518d466" testName="Password_reset_for_existing_user_with_valid_validation_key_changes_password_and_returns_it" computerName="CLARINETE" startTime="2010-10-29T12:15:30.9208215-02:00" endTime="2010-10-29T12:15:30.9308215-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7381723-5545-48c0-abe7-450deb9440e2">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="134068cb-212e-422a-ba86-28c42fc9ba7a" testId="23238c2f-42df-4ea9-f00e-090d63fe7c4c" testName="User_changing_password_with_incorrect_current_password_returns_IncorrectCurrentPassword" computerName="CLARINETE" startTime="2010-10-29T12:15:30.9308215-02:00" endTime="2010-10-29T12:15:30.9408215-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="134068cb-212e-422a-ba86-28c42fc9ba7a">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7295c64-83ab-4dd2-a8ce-d582b73088ce" testId="32799526-a780-07c0-3298-5cb494a724b2" testName="Admin_changing_password_with_valid_new_password_returns_Success" computerName="CLARINETE" startTime="2010-10-29T12:15:30.9408215-02:00" endTime="2010-10-29T12:15:30.9408215-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7295c64-83ab-4dd2-a8ce-d582b73088ce">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="64582546-5896-47df-b6cf-54e370f3924e" testId="32bcb943-d87d-582b-883d-16c950347d82" testName="Register_with_existing_username_returns_ExistingUsername_state" computerName="CLARINETE" startTime="2010-10-29T12:15:30.9408215-02:00" endTime="2010-10-29T12:15:30.9508215-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64582546-5896-47df-b6cf-54e370f3924e">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a93a5e4b-6538-4fd4-a071-3f6e94c698e9" testId="34545253-5fca-47c3-aef0-bbb50e8a823a" testName="Password_reset_for_non_existing_user_returns_null" computerName="CLARINETE" startTime="2010-10-29T12:15:30.9508215-02:00" endTime="2010-10-29T12:15:30.9608215-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a93a5e4b-6538-4fd4-a071-3f6e94c698e9">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="47b1c28b-9fbb-481d-ad00-b20e8f59d4ed" testId="36f43dad-d2ef-5589-a0ea-a16f2f206188" testName="Register_with_existing_email_returns_ExistingEmail_state" computerName="CLARINETE" startTime="2010-10-29T12:15:30.9608215-02:00" endTime="2010-10-29T12:15:30.9808216-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47b1c28b-9fbb-481d-ad00-b20e8f59d4ed">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1145738f-2285-4ae6-b1e3-544abe60d7ad" testId="432241a0-da4c-fbc6-a453-14729eff3388" testName="GenerateValidationKey_for_existing_email_generates_key_and_returns_it" computerName="CLARINETE" startTime="2010-10-29T12:15:30.9808216-02:00" endTime="2010-10-29T12:15:30.9808216-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1145738f-2285-4ae6-b1e3-544abe60d7ad">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f8841081-0722-4b09-92e4-b995450c2e9f" testId="57c1a421-0826-0f23-36c0-8fc7bea8850e" testName="Register_with_invalid_data_returns_invalid_state" computerName="CLARINETE" startTime="2010-10-29T12:15:30.9808216-02:00" endTime="2010-10-29T12:15:30.9908216-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8841081-0722-4b09-92e4-b995450c2e9f">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d137a2d5-b529-4b66-9ebe-82994a117e4a" testId="60c57fbf-cbfc-824a-283f-13fdf8b44218" testName="Password_reset_with_validation_key_for_non_existing_user_returns_null" computerName="CLARINETE" startTime="2010-10-29T12:15:30.9908216-02:00" endTime="2010-10-29T12:15:31.0008216-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d137a2d5-b529-4b66-9ebe-82994a117e4a">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7e0401e5-2501-4a10-95ca-9d8722ebe642" testId="781c6add-8d4a-cf64-6383-1134d95f165e" testName="Password_reset_for_existing_user_changes_password_and_returns_it" computerName="CLARINETE" startTime="2010-10-29T12:15:31.0008216-02:00" endTime="2010-10-29T12:15:31.0108216-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e0401e5-2501-4a10-95ca-9d8722ebe642">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e0e82e53-4d99-4468-9825-e93dbd0610d3" testId="7c1f9829-2243-a68a-054d-4ef62fe678e9" testName="Register_fail_must_rollback_transaction" computerName="CLARINETE" startTime="2010-10-29T12:15:31.0108216-02:00" endTime="2010-10-29T12:15:31.0108216-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0e82e53-4d99-4468-9825-e93dbd0610d3">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0084c6b5-1c39-4e5f-aa60-b7f5e0692b7e" testId="a8222d24-072c-d71d-3bd0-b76b0e3f4666" testName="Register_with_null_role_throws_argumentNullException" computerName="CLARINETE" startTime="2010-10-29T12:15:31.0108216-02:00" endTime="2010-10-29T12:15:31.0208216-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0084c6b5-1c39-4e5f-aa60-b7f5e0692b7e">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87793f73-822d-409a-b3dc-306af0bce5b0" testId="c5c2e3d8-1b24-09f0-43aa-e4693e886451" testName="Register_with_valid_data_inserts_user_into_database_and_returns_success" computerName="CLARINETE" startTime="2010-10-29T12:15:31.0208216-02:00" endTime="2010-10-29T12:15:31.0308216-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87793f73-822d-409a-b3dc-306af0bce5b0">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff978736-7f20-45fb-bcd9-a480ca67bf7e" testId="c72f3490-fe46-9c05-8367-de895c625e81" testName="Password_resetfor_existing_user_with_invalid_validation_key_returns_null" computerName="CLARINETE" startTime="2010-10-29T12:15:31.0308216-02:00" endTime="2010-10-29T12:15:31.0308216-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff978736-7f20-45fb-bcd9-a480ca67bf7e">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f96b5467-2078-4828-9888-7efbc6e7ff03" testId="ecfad25d-faaa-fe1a-4b04-cd16862ed8d3" testName="User_changing_password_with_correct_password_and_valid_new_password_returns_success" computerName="CLARINETE" startTime="2010-10-29T12:15:31.0308216-02:00" endTime="2010-10-29T12:15:31.0408216-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f96b5467-2078-4828-9888-7efbc6e7ff03">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f390bd0-1007-4146-a0bd-11dec2f5ffbc" testId="f706643b-9f9f-e05f-ab65-95347000f26f" testName="Register_with_null_data_throws_argumentnullexception" computerName="CLARINETE" startTime="2010-10-29T12:15:31.0408216-02:00" endTime="2010-10-29T12:15:31.0508217-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f390bd0-1007-4146-a0bd-11dec2f5ffbc">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bac64b98-b32a-4b53-827a-c1239306f0bc" testId="ff4f249f-2e32-9cfc-1f5a-e354a09a65e9" testName="GenerateValidationKey_for_nonexisting_email_returns_null" computerName="CLARINETE" startTime="2010-10-29T12:15:31.0508217-02:00" endTime="2010-10-29T12:15:31.0508217-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bac64b98-b32a-4b53-827a-c1239306f0bc">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="beb9c44e-89f7-4053-a9cd-edb1104d3222" testId="fff7fde5-aa39-2877-3bc5-50f06ba7731e" testName="Validate_existing_user_with_incorrect_password_returns_false" computerName="CLARINETE" startTime="2010-10-29T12:15:31.0508217-02:00" endTime="2010-10-29T12:15:31.0608217-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="beb9c44e-89f7-4053-a9cd-edb1104d3222">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

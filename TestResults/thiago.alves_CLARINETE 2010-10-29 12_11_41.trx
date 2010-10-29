@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a98a24e0-deac-427f-aa92-b88478429764" name="thiago.alves@CLARINETE 2010-10-29 12:11:41" runUser="Clarinete\thiago.alves" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="fa4808ae-51d2-4aed-94e1-71216aefa83a">
+    <Deployment runDeploymentRoot="thiago.alves_CLARINETE 2010-10-29 12_11_41">
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\System.Data.SQLite.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Inspira.Blog.DomainModel\bin\Debug\Inspira.Blog.DomainModel.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\log4net.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\bin\Debug\Web.Generics.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\NHibernate.ByteCode.LinFu.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Web\bin\Debug\Web.Generics.Web.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Futures\bin\Debug\Web.Generics.Futures.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Inspira.Blog\bin\Debug\Inspira.Blog.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\Moq\Moq.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.WebMvc\bin\Debug\Web.Generics.WebMvc.dll" />
+      <DeploymentItem filename="C:\Users\thiago.alves\Projects\Web.Generics\lib\NHibernate\FluentNHibernate.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-29T12:11:41.3805001-02:00" queuing="2010-10-29T12:11:41.7605006-02:00" start="2010-10-29T12:11:41.8105007-02:00" finish="2010-10-29T12:11:43.6605033-02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="49" executed="49" passed="12" error="20" failed="17" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CLARINETE" outcome="Warning" timestamp="2010-10-29T12:11:41.7605006-02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Practices.ServiceLocation' directly or indirectly referenced by the test container 'c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Password_reset_for_existing_user_changes_password_and_returns_it" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="781c6add-8d4a-cf64-6383-1134d95f165e">
+      <Execution id="034aaf2f-1d5f-4a94-9d38-92da54af800e" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Password_reset_for_existing_user_changes_password_and_returns_it" />
+    </UnitTest>
+    <UnitTest name="Register_fail_must_rollback_transaction" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="7c1f9829-2243-a68a-054d-4ef62fe678e9">
+      <Execution id="320d6187-3988-442a-8cb2-70d644b48853" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_fail_must_rollback_transaction" />
+    </UnitTest>
+    <UnitTest name="Create_gridcolumns_3_items" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="6bcac391-9788-10e8-747e-efef0cd644a3">
+      <Execution id="1f9539f0-306d-4ad5-9c94-da1efdc92983" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.GridTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_gridcolumns_3_items" />
+    </UnitTest>
+    <UnitTest name="Default_sortinginfo_is_null_property_ascending_with_sorting_disabled" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="20883c91-712f-7bd9-84c5-0e6b4f0b789d">
+      <Execution id="f27da0e2-5675-42c1-9935-b24f73efd87f" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.Given_a_repository_with_7_elements, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Default_sortinginfo_is_null_property_ascending_with_sorting_disabled" />
+    </UnitTest>
+    <UnitTest name="All_null_parameters_brings_all_values" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="6d4cc1b8-84b5-98a2-bb17-b334fc688462">
+      <Execution id="80e0d54a-9a23-41b0-8e0a-718eb5edc711" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.Given_a_repository_with_7_elements, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="All_null_parameters_brings_all_values" />
+    </UnitTest>
+    <UnitTest name="Register_with_existing_email_returns_ExistingEmail_state" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="36f43dad-d2ef-5589-a0ea-a16f2f206188">
+      <Execution id="e08fcced-d412-4625-bc62-90d5414fed9c" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_existing_email_returns_ExistingEmail_state" />
+    </UnitTest>
+    <UnitTest name="Validate_non_existing_user_returns_false" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="08764d60-9337-470b-c9d5-3d67f1bc6ade">
+      <Execution id="16393cac-18df-4f5d-87fe-170c559a7830" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_non_existing_user_returns_false" />
+    </UnitTest>
+    <UnitTest name="Password_resetfor_existing_user_with_invalid_validation_key_returns_null" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="c72f3490-fe46-9c05-8367-de895c625e81">
+      <Execution id="b8db6453-8afc-47f4-b2d6-efe53dd0969c" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Password_resetfor_existing_user_with_invalid_validation_key_returns_null" />
+    </UnitTest>
+    <UnitTest name="Create_gridcolumns_2_items" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="cb3eda27-b10b-b25b-3e1c-155f0c451f45">
+      <Execution id="ff39b462-6f85-43ca-99a4-43300d985ec5" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.GridTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_gridcolumns_2_items" />
+    </UnitTest>
+    <UnitTest name="GenerateValidationKey_for_existing_email_generates_key_and_returns_it" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="432241a0-da4c-fbc6-a453-14729eff3388">
+      <Execution id="3f8ed821-41db-451e-ae8f-398fa1c02e57" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GenerateValidationKey_for_existing_email_generates_key_and_returns_it" />
+    </UnitTest>
+    <UnitTest name="Register_with_existing_username_returns_ExistingUsername_state" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="32bcb943-d87d-582b-883d-16c950347d82">
+      <Execution id="c01ab2c6-82ee-4d87-aed1-fb0ef040277d" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_existing_username_returns_ExistingUsername_state" />
+    </UnitTest>
+    <UnitTest name="Add_Comment_In_Post" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="b4297581-ff1b-3999-5fd8-95b6036938c0">
+      <Execution id="1f271bc2-d081-4afb-8f74-2a8291bfa2b7" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Inspira.Blog.Tests.Blog_Services, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_Comment_In_Post" />
+    </UnitTest>
+    <UnitTest name="InsertPostWithNullableProperty" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="afec351d-c5bd-e807-4f9f-6c708da25c8f">
+      <Execution id="9cc2b3c5-1adf-4f2e-8bdd-0438afe11821" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_Repository_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertPostWithNullableProperty" />
+    </UnitTest>
+    <UnitTest name="Paging" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="6631986b-0730-1229-232f-35d009da40d6">
+      <Execution id="07d699d5-aa10-47a0-8f9e-ac47aa2046f8" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface_Grids, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Paging" />
+    </UnitTest>
+    <UnitTest name="Create_gridcolumns_0_items" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="29cde594-6aec-d68e-3857-7a4b9d282a2c">
+      <Execution id="29ea95d2-cf8a-4dfe-938d-80476ca3d967" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.GridTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_gridcolumns_0_items" />
+    </UnitTest>
+    <UnitTest name="Password_reset_for_non_existing_user_returns_null" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="34545253-5fca-47c3-aef0-bbb50e8a823a">
+      <Execution id="3456cbc1-f3f3-4ce0-9215-d28c93c59fde" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Password_reset_for_non_existing_user_returns_null" />
+    </UnitTest>
+    <UnitTest name="Admin_changing_password_with_valid_new_password_returns_Success" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="32799526-a780-07c0-3298-5cb494a724b2">
+      <Execution id="61c3af4f-a4c6-4913-a620-f90d7e7caa07" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Admin_changing_password_with_valid_new_password_returns_Success" />
+    </UnitTest>
+    <UnitTest name="Insert_child_does_not_load_children_v2" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="aac57191-7373-4d93-174a-e11b361b9a1b">
+      <Execution id="b02b0549-fe4c-4639-aa62-f160b7d4677c" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.NHibernateSessionTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Insert_child_does_not_load_children_v2" />
+    </UnitTest>
+    <UnitTest name="Register_with_invalid_data_returns_invalid_state" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="57c1a421-0826-0f23-36c0-8fc7bea8850e">
+      <Execution id="1e00c512-e4d2-484c-a53a-be199d3d5708" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_invalid_data_returns_invalid_state" />
+    </UnitTest>
+    <UnitTest name="Search_with_null_parameters_must_return_all_7_rows" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="168fbeca-bfc1-581c-b9ec-3c4572d00ed1">
+      <Execution id="04dac37a-9d9b-407a-a460-931e1f1e2be2" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.Given_a_repository_with_7_elements, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Search_with_null_parameters_must_return_all_7_rows" />
+    </UnitTest>
+    <UnitTest name="Validate_existing_user_with_incorrect_password_returns_false" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="fff7fde5-aa39-2877-3bc5-50f06ba7731e">
+      <Execution id="1784ccea-c957-458e-99e2-e372e120f727" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_existing_user_with_incorrect_password_returns_false" />
+    </UnitTest>
+    <UnitTest name="Create_gridcolumns_4_items" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="66c54571-61e8-ed34-7b37-ad9ef9e40030">
+      <Execution id="0baad640-8488-460d-905b-375edc5211a4" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.GridTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_gridcolumns_4_items" />
+    </UnitTest>
+    <UnitTest name="Resolve_With_Chaining" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="ef70adab-cbca-46bf-0d19-52da0a032597">
+      <Execution id="320121f9-3e8e-492c-bf9b-dbd2b4a8df02" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_InversionOfControl_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Resolve_With_Chaining" />
+    </UnitTest>
+    <UnitTest name="Log" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="3dd40f28-a6cf-b821-cc15-2eeb654b586d">
+      <Execution id="dace66ae-55c3-4bd6-986e-210fa91c2a3b" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_Logging_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Log" />
+    </UnitTest>
+    <UnitTest name="User_changing_password_with_incorrect_current_password_returns_IncorrectCurrentPassword" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="23238c2f-42df-4ea9-f00e-090d63fe7c4c">
+      <Execution id="8984f71d-904f-462b-8318-fe60c25fbfa4" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="User_changing_password_with_incorrect_current_password_returns_IncorrectCurrentPassword" />
+    </UnitTest>
+    <UnitTest name="Resolve_Controller_With_Generic_Controller_And_Specific_ViewModel" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="700866d8-e2eb-49cb-74d4-1ae85ea12f69">
+      <Execution id="71b74f21-a7ef-4c34-9fb5-6b0c0751e52b" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_InversionOfControl_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Resolve_Controller_With_Generic_Controller_And_Specific_ViewModel" />
+    </UnitTest>
+    <UnitTest name="InsertPostWithNewTagsAndComments" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="ca9b6d7d-c72c-ffd4-9266-ae65f3adb659">
+      <Execution id="9e66dc93-45d2-4779-b03a-75c8fda2f731" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_Repository_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertPostWithNewTagsAndComments" />
+    </UnitTest>
+    <UnitTest name="Validate_existing_user_with_correct_password_returns_true" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="0cc02efb-c97e-ea3e-3271-59d2c276e278">
+      <Execution id="60818185-7e20-45c6-b7f7-bc3697e0070c" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_existing_user_with_correct_password_returns_true" />
+    </UnitTest>
+    <UnitTest name="Register_with_null_data_throws_argumentnullexception" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="f706643b-9f9f-e05f-ab65-95347000f26f">
+      <Execution id="8cceeb77-d1e5-487e-a677-fa40d87b6cc3" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_null_data_throws_argumentnullexception" />
+    </UnitTest>
+    <UnitTest name="Password_reset_with_validation_key_for_non_existing_user_returns_null" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="60c57fbf-cbfc-824a-283f-13fdf8b44218">
+      <Execution id="2d927f79-7bf9-444f-a658-7db77033d838" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Password_reset_with_validation_key_for_non_existing_user_returns_null" />
+    </UnitTest>
+    <UnitTest name="GenerateValidationKey_for_nonexisting_email_returns_null" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="ff4f249f-2e32-9cfc-1f5a-e354a09a65e9">
+      <Execution id="365fe842-9eaa-4db7-a6cb-350c8a7d30b9" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GenerateValidationKey_for_nonexisting_email_returns_null" />
+    </UnitTest>
+    <UnitTest name="Register_Interface_And_Resolve_To_Implementation_Without_Chaining" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="26b86960-9ce0-9813-79f0-22eb253ddaa4">
+      <Execution id="05a416d7-1882-4066-a409-f1ed327adf58" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_InversionOfControl_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Interface_And_Resolve_To_Implementation_Without_Chaining" />
+    </UnitTest>
+    <UnitTest name="Register_with_null_role_throws_argumentNullException" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="a8222d24-072c-d71d-3bd0-b76b0e3f4666">
+      <Execution id="cb217867-5676-4335-aa76-b00b2b1ba8b1" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_null_role_throws_argumentNullException" />
+    </UnitTest>
+    <UnitTest name="Log_With_Aspect" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="b6819492-f9db-dcf2-0ded-3161c5b9aa32">
+      <Execution id="c357c504-9298-4249-9a0e-c435d8dd90fb" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_Logging_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Log_With_Aspect" />
+    </UnitTest>
+    <UnitTest name="Register_with_valid_data_inserts_user_into_database_and_returns_success" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="c5c2e3d8-1b24-09f0-43aa-e4693e886451">
+      <Execution id="7e022ba5-5324-46bc-a0dc-f29b9b02d290" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_with_valid_data_inserts_user_into_database_and_returns_success" />
+    </UnitTest>
+    <UnitTest name="Default_paginginfo_is_pageindex_1_and_pagesize_10_with_paging_disabled" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="a7821dd2-9252-958d-d6a8-4c25750f0215">
+      <Execution id="974eede7-d7a0-4e9a-b13d-af748e239d10" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.Given_a_repository_with_7_elements, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Default_paginginfo_is_pageindex_1_and_pagesize_10_with_paging_disabled" />
+    </UnitTest>
+    <UnitTest name="Insert_child_does_not_load_children" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="1e6af77b-1d3b-9555-806e-265331e477a5">
+      <Execution id="c1ec923e-7745-4ea2-8264-2d0797767121" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.NHibernateSessionTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Insert_child_does_not_load_children" />
+    </UnitTest>
+    <UnitTest name="Resolve_Controller_With_Specific_Controller_And_ViewModel" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="e7a87bf2-4851-5b1c-7df0-92fdcafd03ca">
+      <Execution id="743f4df1-4cd0-4468-9d03-641cdffb9eef" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_InversionOfControl_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Resolve_Controller_With_Specific_Controller_And_ViewModel" />
+    </UnitTest>
+    <UnitTest name="Pagesize_10_and_pageindex_1_must_return_7_rows" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="2bbbf406-154d-cfeb-98b8-963991468c1d">
+      <Execution id="a644d8cc-5585-4801-a5ca-b68abd55983d" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.Given_a_repository_with_7_elements, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pagesize_10_and_pageindex_1_must_return_7_rows" />
+    </UnitTest>
+    <UnitTest name="InsertPostWithExistingTagsAndComments" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="a2c49a2b-d39d-2796-5d55-e3bc20513b27">
+      <Execution id="a1d256d6-036a-4e42-98f4-6eb756fcb8c7" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_Repository_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertPostWithExistingTagsAndComments" />
+    </UnitTest>
+    <UnitTest name="Pagesize_10_and_pageindex_2_must_yield_page_1" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="4e379a55-99f6-73bf-d87b-986cf08e255e">
+      <Execution id="ace5ec8f-39ef-4a87-bbbf-ae51106af92e" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.Given_a_repository_with_7_elements, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pagesize_10_and_pageindex_2_must_yield_page_1" />
+    </UnitTest>
+    <UnitTest name="Password_reset_for_existing_user_with_valid_validation_key_changes_password_and_returns_it" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="1084cf5d-1d85-3de9-19f5-6dcf0518d466">
+      <Execution id="06e25441-8f71-4d64-b96f-f0f59ceea8dc" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Password_reset_for_existing_user_with_valid_validation_key_changes_password_and_returns_it" />
+    </UnitTest>
+    <UnitTest name="Pagesize_2_and_pageindex_2_order_by_ID_asc_yields_ids_3_and_4" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="373d2bfa-dc22-934f-5046-20f337ec11ab">
+      <Execution id="fa5c9d2e-2808-4d42-984a-aa79e9175ba9" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.Given_a_repository_with_7_elements, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pagesize_2_and_pageindex_2_order_by_ID_asc_yields_ids_3_and_4" />
+    </UnitTest>
+    <UnitTest name="User_changing_password_with_correct_password_and_valid_new_password_returns_success" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="ecfad25d-faaa-fe1a-4b04-cd16862ed8d3">
+      <Execution id="aa03c8f7-54ca-4e40-a900-3b99a6547080" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Authentication.MembershipServicesTests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="User_changing_password_with_correct_password_and_valid_new_password_returns_success" />
+    </UnitTest>
+    <UnitTest name="List_Posts_By_Date_Range" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="8aafd531-d21c-00a8-ee90-e1b37e3a3694">
+      <Execution id="fb777ff1-620a-43f7-bde3-43aa96626b0e" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Inspira.Blog.Tests.Blog_Services, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="List_Posts_By_Date_Range" />
+    </UnitTest>
+    <UnitTest name="SelectWithLambdaExpressions" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="e8e3591b-e3ff-7a0c-2871-7ffb31567b9f">
+      <Execution id="d0a8123f-3248-4081-8973-925aec3d86a1" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_Repository_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectWithLambdaExpressions" />
+    </UnitTest>
+    <UnitTest name="Show_Items_In_Grid" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="51ec1ccd-48f5-8524-1192-acdbaed7610f">
+      <Execution id="281a5e95-dcc6-4d32-9ad5-055b13d9d6f0" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface_Grids, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Show_Items_In_Grid" />
+    </UnitTest>
+    <UnitTest name="Resolve_Controller_With_Generic_Implementations" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="9fc42f36-ca29-aff9-0c1e-58648d096479">
+      <Execution id="2526b520-9e7c-45c9-9288-2a6f4b9d1ec8" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.Infrastructure_InversionOfControl_Tests, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Resolve_Controller_With_Generic_Implementations" />
+    </UnitTest>
+    <UnitTest name="Order_by_ID_desc_must_return_7_items_in_descending_order" storage="c:\users\thiago.alves\projects\web.generics\web.generics.tests\bin\debug\web.generics.tests.dll" id="2c5bb296-3514-19d6-f667-9488bbac924d">
+      <Execution id="5f20f108-78f4-4f51-aad9-ae60b90cafd2" />
+      <TestMethod codeBase="C:/Users/thiago.alves/Projects/Web.Generics/Web.Generics.Tests/bin/Debug/Web.Generics.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Web.Generics.Tests.UserInterface.Given_a_repository_with_7_elements, Web.Generics.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Order_by_ID_desc_must_return_7_items_in_descending_order" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="08764d60-9337-470b-c9d5-3d67f1bc6ade" executionId="16393cac-18df-4f5d-87fe-170c559a7830" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0cc02efb-c97e-ea3e-3271-59d2c276e278" executionId="60818185-7e20-45c6-b7f7-bc3697e0070c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1084cf5d-1d85-3de9-19f5-6dcf0518d466" executionId="06e25441-8f71-4d64-b96f-f0f59ceea8dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="168fbeca-bfc1-581c-b9ec-3c4572d00ed1" executionId="04dac37a-9d9b-407a-a460-931e1f1e2be2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e6af77b-1d3b-9555-806e-265331e477a5" executionId="c1ec923e-7745-4ea2-8264-2d0797767121" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20883c91-712f-7bd9-84c5-0e6b4f0b789d" executionId="f27da0e2-5675-42c1-9935-b24f73efd87f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23238c2f-42df-4ea9-f00e-090d63fe7c4c" executionId="8984f71d-904f-462b-8318-fe60c25fbfa4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26b86960-9ce0-9813-79f0-22eb253ddaa4" executionId="05a416d7-1882-4066-a409-f1ed327adf58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29cde594-6aec-d68e-3857-7a4b9d282a2c" executionId="29ea95d2-cf8a-4dfe-938d-80476ca3d967" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2bbbf406-154d-cfeb-98b8-963991468c1d" executionId="a644d8cc-5585-4801-a5ca-b68abd55983d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c5bb296-3514-19d6-f667-9488bbac924d" executionId="5f20f108-78f4-4f51-aad9-ae60b90cafd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32799526-a780-07c0-3298-5cb494a724b2" executionId="61c3af4f-a4c6-4913-a620-f90d7e7caa07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32bcb943-d87d-582b-883d-16c950347d82" executionId="c01ab2c6-82ee-4d87-aed1-fb0ef040277d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34545253-5fca-47c3-aef0-bbb50e8a823a" executionId="3456cbc1-f3f3-4ce0-9215-d28c93c59fde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36f43dad-d2ef-5589-a0ea-a16f2f206188" executionId="e08fcced-d412-4625-bc62-90d5414fed9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="373d2bfa-dc22-934f-5046-20f337ec11ab" executionId="fa5c9d2e-2808-4d42-984a-aa79e9175ba9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3dd40f28-a6cf-b821-cc15-2eeb654b586d" executionId="dace66ae-55c3-4bd6-986e-210fa91c2a3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="432241a0-da4c-fbc6-a453-14729eff3388" executionId="3f8ed821-41db-451e-ae8f-398fa1c02e57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e379a55-99f6-73bf-d87b-986cf08e255e" executionId="ace5ec8f-39ef-4a87-bbbf-ae51106af92e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51ec1ccd-48f5-8524-1192-acdbaed7610f" executionId="281a5e95-dcc6-4d32-9ad5-055b13d9d6f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57c1a421-0826-0f23-36c0-8fc7bea8850e" executionId="1e00c512-e4d2-484c-a53a-be199d3d5708" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60c57fbf-cbfc-824a-283f-13fdf8b44218" executionId="2d927f79-7bf9-444f-a658-7db77033d838" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6631986b-0730-1229-232f-35d009da40d6" executionId="07d699d5-aa10-47a0-8f9e-ac47aa2046f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66c54571-61e8-ed34-7b37-ad9ef9e40030" executionId="0baad640-8488-460d-905b-375edc5211a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bcac391-9788-10e8-747e-efef0cd644a3" executionId="1f9539f0-306d-4ad5-9c94-da1efdc92983" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d4cc1b8-84b5-98a2-bb17-b334fc688462" executionId="80e0d54a-9a23-41b0-8e0a-718eb5edc711" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="700866d8-e2eb-49cb-74d4-1ae85ea12f69" executionId="71b74f21-a7ef-4c34-9fb5-6b0c0751e52b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="781c6add-8d4a-cf64-6383-1134d95f165e" executionId="034aaf2f-1d5f-4a94-9d38-92da54af800e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c1f9829-2243-a68a-054d-4ef62fe678e9" executionId="320d6187-3988-442a-8cb2-70d644b48853" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8aafd531-d21c-00a8-ee90-e1b37e3a3694" executionId="fb777ff1-620a-43f7-bde3-43aa96626b0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fc42f36-ca29-aff9-0c1e-58648d096479" executionId="2526b520-9e7c-45c9-9288-2a6f4b9d1ec8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2c49a2b-d39d-2796-5d55-e3bc20513b27" executionId="a1d256d6-036a-4e42-98f4-6eb756fcb8c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7821dd2-9252-958d-d6a8-4c25750f0215" executionId="974eede7-d7a0-4e9a-b13d-af748e239d10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8222d24-072c-d71d-3bd0-b76b0e3f4666" executionId="cb217867-5676-4335-aa76-b00b2b1ba8b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aac57191-7373-4d93-174a-e11b361b9a1b" executionId="b02b0549-fe4c-4639-aa62-f160b7d4677c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afec351d-c5bd-e807-4f9f-6c708da25c8f" executionId="9cc2b3c5-1adf-4f2e-8bdd-0438afe11821" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4297581-ff1b-3999-5fd8-95b6036938c0" executionId="1f271bc2-d081-4afb-8f74-2a8291bfa2b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6819492-f9db-dcf2-0ded-3161c5b9aa32" executionId="c357c504-9298-4249-9a0e-c435d8dd90fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5c2e3d8-1b24-09f0-43aa-e4693e886451" executionId="7e022ba5-5324-46bc-a0dc-f29b9b02d290" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c72f3490-fe46-9c05-8367-de895c625e81" executionId="b8db6453-8afc-47f4-b2d6-efe53dd0969c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca9b6d7d-c72c-ffd4-9266-ae65f3adb659" executionId="9e66dc93-45d2-4779-b03a-75c8fda2f731" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb3eda27-b10b-b25b-3e1c-155f0c451f45" executionId="ff39b462-6f85-43ca-99a4-43300d985ec5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7a87bf2-4851-5b1c-7df0-92fdcafd03ca" executionId="743f4df1-4cd0-4468-9d03-641cdffb9eef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8e3591b-e3ff-7a0c-2871-7ffb31567b9f" executionId="d0a8123f-3248-4081-8973-925aec3d86a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ecfad25d-faaa-fe1a-4b04-cd16862ed8d3" executionId="aa03c8f7-54ca-4e40-a900-3b99a6547080" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef70adab-cbca-46bf-0d19-52da0a032597" executionId="320121f9-3e8e-492c-bf9b-dbd2b4a8df02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f706643b-9f9f-e05f-ab65-95347000f26f" executionId="8cceeb77-d1e5-487e-a677-fa40d87b6cc3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff4f249f-2e32-9cfc-1f5a-e354a09a65e9" executionId="365fe842-9eaa-4db7-a6cb-350c8a7d30b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fff7fde5-aa39-2877-3bc5-50f06ba7731e" executionId="1784ccea-c957-458e-99e2-e372e120f727" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="16393cac-18df-4f5d-87fe-170c559a7830" testId="08764d60-9337-470b-c9d5-3d67f1bc6ade" testName="Validate_non_existing_user_returns_false" computerName="CLARINETE" startTime="2010-10-29T12:11:41.8205007-02:00" endTime="2010-10-29T12:11:42.5105017-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16393cac-18df-4f5d-87fe-170c559a7830">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60818185-7e20-45c6-b7f7-bc3697e0070c" testId="0cc02efb-c97e-ea3e-3271-59d2c276e278" testName="Validate_existing_user_with_correct_password_returns_true" computerName="CLARINETE" startTime="2010-10-29T12:11:42.5205017-02:00" endTime="2010-10-29T12:11:42.5305017-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60818185-7e20-45c6-b7f7-bc3697e0070c">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="06e25441-8f71-4d64-b96f-f0f59ceea8dc" testId="1084cf5d-1d85-3de9-19f5-6dcf0518d466" testName="Password_reset_for_existing_user_with_valid_validation_key_changes_password_and_returns_it" computerName="CLARINETE" startTime="2010-10-29T12:11:42.5505018-02:00" endTime="2010-10-29T12:11:42.5605018-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06e25441-8f71-4d64-b96f-f0f59ceea8dc">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="04dac37a-9d9b-407a-a460-931e1f1e2be2" testId="168fbeca-bfc1-581c-b9ec-3c4572d00ed1" testName="Search_with_null_parameters_must_return_all_7_rows" computerName="CLARINETE" duration="00:00:00.0649869" startTime="2010-10-29T12:11:42.5605018-02:00" endTime="2010-10-29T12:11:42.6305019-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04dac37a-9d9b-407a-a460-931e1f1e2be2">
+    </UnitTestResult>
+    <UnitTestResult executionId="c1ec923e-7745-4ea2-8264-2d0797767121" testId="1e6af77b-1d3b-9555-806e-265331e477a5" testName="Insert_child_does_not_load_children" computerName="CLARINETE" duration="00:00:00.0084703" startTime="2010-10-29T12:11:42.6305019-02:00" endTime="2010-10-29T12:11:42.6405019-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1ec923e-7745-4ea2-8264-2d0797767121">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Web.Generics.Tests.NHibernateSessionTests.Initialize threw exception. System.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at Web.Generics.Tests.NHibernateSessionTests.Initialize() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\NHibernateSessionTests.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f27da0e2-5675-42c1-9935-b24f73efd87f" testId="20883c91-712f-7bd9-84c5-0e6b4f0b789d" testName="Default_sortinginfo_is_null_property_ascending_with_sorting_disabled" computerName="CLARINETE" duration="00:00:00.0061017" startTime="2010-10-29T12:11:42.6405019-02:00" endTime="2010-10-29T12:11:42.6505019-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f27da0e2-5675-42c1-9935-b24f73efd87f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Ascending&gt;. Actual:&lt;(null)&gt;. </Message>
+          <StackTrace>   at Web.Generics.Tests.UserInterface.Given_a_repository_with_7_elements.Default_sortinginfo_is_null_property_ascending_with_sorting_disabled() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\UserInterface\Page_Sort_Filter.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8984f71d-904f-462b-8318-fe60c25fbfa4" testId="23238c2f-42df-4ea9-f00e-090d63fe7c4c" testName="User_changing_password_with_incorrect_current_password_returns_IncorrectCurrentPassword" computerName="CLARINETE" startTime="2010-10-29T12:11:42.6505019-02:00" endTime="2010-10-29T12:11:42.6605019-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8984f71d-904f-462b-8318-fe60c25fbfa4">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="05a416d7-1882-4066-a409-f1ed327adf58" testId="26b86960-9ce0-9813-79f0-22eb253ddaa4" testName="Register_Interface_And_Resolve_To_Implementation_Without_Chaining" computerName="CLARINETE" duration="00:00:00.0024973" startTime="2010-10-29T12:11:42.6605019-02:00" endTime="2010-10-29T12:11:42.6605019-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05a416d7-1882-4066-a409-f1ed327adf58">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Web.Generics.Tests.Infrastructure_InversionOfControl_Tests.Register_Interface_And_Resolve_To_Implementation_Without_Chaining threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Web.Generics.Tests.Infrastructure_InversionOfControl_Tests.Register_Interface_And_Resolve_To_Implementation_Without_Chaining() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Infrastructure_InversionOfControl_Tests.cs:line 65
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29ea95d2-cf8a-4dfe-938d-80476ca3d967" testId="29cde594-6aec-d68e-3857-7a4b9d282a2c" testName="Create_gridcolumns_0_items" computerName="CLARINETE" duration="00:00:00.0009728" startTime="2010-10-29T12:11:42.6605019-02:00" endTime="2010-10-29T12:11:42.6705019-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29ea95d2-cf8a-4dfe-938d-80476ca3d967">
+    </UnitTestResult>
+    <UnitTestResult executionId="a644d8cc-5585-4801-a5ca-b68abd55983d" testId="2bbbf406-154d-cfeb-98b8-963991468c1d" testName="Pagesize_10_and_pageindex_1_must_return_7_rows" computerName="CLARINETE" duration="00:00:00.0006110" startTime="2010-10-29T12:11:42.6705019-02:00" endTime="2010-10-29T12:11:42.6705019-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a644d8cc-5585-4801-a5ca-b68abd55983d">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f20f108-78f4-4f51-aad9-ae60b90cafd2" testId="2c5bb296-3514-19d6-f667-9488bbac924d" testName="Order_by_ID_desc_must_return_7_items_in_descending_order" computerName="CLARINETE" duration="00:00:00.2820733" startTime="2010-10-29T12:11:42.6705019-02:00" endTime="2010-10-29T12:11:42.9605023-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f20f108-78f4-4f51-aad9-ae60b90cafd2">
+    </UnitTestResult>
+    <UnitTestResult executionId="61c3af4f-a4c6-4913-a620-f90d7e7caa07" testId="32799526-a780-07c0-3298-5cb494a724b2" testName="Admin_changing_password_with_valid_new_password_returns_Success" computerName="CLARINETE" startTime="2010-10-29T12:11:42.9705023-02:00" endTime="2010-10-29T12:11:42.9805024-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61c3af4f-a4c6-4913-a620-f90d7e7caa07">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c01ab2c6-82ee-4d87-aed1-fb0ef040277d" testId="32bcb943-d87d-582b-883d-16c950347d82" testName="Register_with_existing_username_returns_ExistingUsername_state" computerName="CLARINETE" startTime="2010-10-29T12:11:42.9905024-02:00" endTime="2010-10-29T12:11:43.0005024-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c01ab2c6-82ee-4d87-aed1-fb0ef040277d">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3456cbc1-f3f3-4ce0-9215-d28c93c59fde" testId="34545253-5fca-47c3-aef0-bbb50e8a823a" testName="Password_reset_for_non_existing_user_returns_null" computerName="CLARINETE" startTime="2010-10-29T12:11:43.0105024-02:00" endTime="2010-10-29T12:11:43.0105024-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3456cbc1-f3f3-4ce0-9215-d28c93c59fde">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e08fcced-d412-4625-bc62-90d5414fed9c" testId="36f43dad-d2ef-5589-a0ea-a16f2f206188" testName="Register_with_existing_email_returns_ExistingEmail_state" computerName="CLARINETE" startTime="2010-10-29T12:11:43.0205024-02:00" endTime="2010-10-29T12:11:43.0305024-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e08fcced-d412-4625-bc62-90d5414fed9c">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fa5c9d2e-2808-4d42-984a-aa79e9175ba9" testId="373d2bfa-dc22-934f-5046-20f337ec11ab" testName="Pagesize_2_and_pageindex_2_order_by_ID_asc_yields_ids_3_and_4" computerName="CLARINETE" duration="00:00:00.0030479" startTime="2010-10-29T12:11:43.0305024-02:00" endTime="2010-10-29T12:11:43.0405024-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa5c9d2e-2808-4d42-984a-aa79e9175ba9">
+    </UnitTestResult>
+    <UnitTestResult executionId="dace66ae-55c3-4bd6-986e-210fa91c2a3b" testId="3dd40f28-a6cf-b821-cc15-2eeb654b586d" testName="Log" computerName="CLARINETE" duration="00:00:00.0007683" startTime="2010-10-29T12:11:43.0405024-02:00" endTime="2010-10-29T12:11:43.0405024-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dace66ae-55c3-4bd6-986e-210fa91c2a3b">
+    </UnitTestResult>
+    <UnitTestResult executionId="3f8ed821-41db-451e-ae8f-398fa1c02e57" testId="432241a0-da4c-fbc6-a453-14729eff3388" testName="GenerateValidationKey_for_existing_email_generates_key_and_returns_it" computerName="CLARINETE" startTime="2010-10-29T12:11:43.0405024-02:00" endTime="2010-10-29T12:11:43.0505025-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f8ed821-41db-451e-ae8f-398fa1c02e57">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ace5ec8f-39ef-4a87-bbbf-ae51106af92e" testId="4e379a55-99f6-73bf-d87b-986cf08e255e" testName="Pagesize_10_and_pageindex_2_must_yield_page_1" computerName="CLARINETE" duration="00:00:00.0022761" startTime="2010-10-29T12:11:43.0605025-02:00" endTime="2010-10-29T12:11:43.0605025-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ace5ec8f-39ef-4a87-bbbf-ae51106af92e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1,2,3,4,5,6,7&gt;. Actual:&lt;&gt;. </Message>
+          <StackTrace>   at Web.Generics.Tests.UserInterface.Given_a_repository_with_7_elements.Pagesize_10_and_pageindex_2_must_yield_page_1() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\UserInterface\Page_Sort_Filter.cs:line 162
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="281a5e95-dcc6-4d32-9ad5-055b13d9d6f0" testId="51ec1ccd-48f5-8524-1192-acdbaed7610f" testName="Show_Items_In_Grid" computerName="CLARINETE" duration="00:00:00.0017489" startTime="2010-10-29T12:11:43.0605025-02:00" endTime="2010-10-29T12:11:43.0705025-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="281a5e95-dcc6-4d32-9ad5-055b13d9d6f0">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Web.Generics.Tests.UserInterface_Grids.Initialize threw exception. System.ApplicationException: System.ApplicationException: Session factory not configured. Did you call ApplicationManager.Initialize()?.</Message>
+          <StackTrace>    at Web.Generics.ApplicationManager.GetCurrentSession() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\ApplicationManager.cs:line 143
+   at Web.Generics.Infrastructure.DataAccess.NHibernate.NHibernateRepositoryContext..ctor() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\Infrastructure\DataAccess\NHibernate\NHibernateRepositoryContext.cs:line 37
+   at Web.Generics.Tests.ContextFactory.GetContext() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\ContextFactory.cs:line 41
+   at Web.Generics.Tests.UserInterface_Grids.Initialize() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\UserInterface_Grids.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1e00c512-e4d2-484c-a53a-be199d3d5708" testId="57c1a421-0826-0f23-36c0-8fc7bea8850e" testName="Register_with_invalid_data_returns_invalid_state" computerName="CLARINETE" startTime="2010-10-29T12:11:43.0805025-02:00" endTime="2010-10-29T12:11:43.0805025-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e00c512-e4d2-484c-a53a-be199d3d5708">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2d927f79-7bf9-444f-a658-7db77033d838" testId="60c57fbf-cbfc-824a-283f-13fdf8b44218" testName="Password_reset_with_validation_key_for_non_existing_user_returns_null" computerName="CLARINETE" startTime="2010-10-29T12:11:43.0905025-02:00" endTime="2010-10-29T12:11:43.0905025-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d927f79-7bf9-444f-a658-7db77033d838">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07d699d5-aa10-47a0-8f9e-ac47aa2046f8" testId="6631986b-0730-1229-232f-35d009da40d6" testName="Paging" computerName="CLARINETE" duration="00:00:00.0075026" startTime="2010-10-29T12:11:43.1005025-02:00" endTime="2010-10-29T12:11:43.1105025-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07d699d5-aa10-47a0-8f9e-ac47aa2046f8">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Web.Generics.Tests.UserInterface_Grids.Initialize threw exception. System.ApplicationException: System.ApplicationException: Session factory not configured. Did you call ApplicationManager.Initialize()?.</Message>
+          <StackTrace>    at Web.Generics.ApplicationManager.GetCurrentSession() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\ApplicationManager.cs:line 143
+   at Web.Generics.Infrastructure.DataAccess.NHibernate.NHibernateRepositoryContext..ctor() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\Infrastructure\DataAccess\NHibernate\NHibernateRepositoryContext.cs:line 37
+   at Web.Generics.Tests.ContextFactory.GetContext() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\ContextFactory.cs:line 41
+   at Web.Generics.Tests.UserInterface_Grids.Initialize() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\UserInterface_Grids.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0baad640-8488-460d-905b-375edc5211a4" testId="66c54571-61e8-ed34-7b37-ad9ef9e40030" testName="Create_gridcolumns_4_items" computerName="CLARINETE" duration="00:00:00.0004326" startTime="2010-10-29T12:11:43.1105025-02:00" endTime="2010-10-29T12:11:43.1205026-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0baad640-8488-460d-905b-375edc5211a4">
+    </UnitTestResult>
+    <UnitTestResult executionId="1f9539f0-306d-4ad5-9c94-da1efdc92983" testId="6bcac391-9788-10e8-747e-efef0cd644a3" testName="Create_gridcolumns_3_items" computerName="CLARINETE" duration="00:00:00.0004197" startTime="2010-10-29T12:11:43.1205026-02:00" endTime="2010-10-29T12:11:43.1205026-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f9539f0-306d-4ad5-9c94-da1efdc92983">
+    </UnitTestResult>
+    <UnitTestResult executionId="80e0d54a-9a23-41b0-8e0a-718eb5edc711" testId="6d4cc1b8-84b5-98a2-bb17-b334fc688462" testName="All_null_parameters_brings_all_values" computerName="CLARINETE" duration="00:00:00.0006858" startTime="2010-10-29T12:11:43.1205026-02:00" endTime="2010-10-29T12:11:43.1305026-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80e0d54a-9a23-41b0-8e0a-718eb5edc711">
+    </UnitTestResult>
+    <UnitTestResult executionId="71b74f21-a7ef-4c34-9fb5-6b0c0751e52b" testId="700866d8-e2eb-49cb-74d4-1ae85ea12f69" testName="Resolve_Controller_With_Generic_Controller_And_Specific_ViewModel" computerName="CLARINETE" duration="00:00:00.0013707" startTime="2010-10-29T12:11:43.1305026-02:00" endTime="2010-10-29T12:11:43.1405026-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71b74f21-a7ef-4c34-9fb5-6b0c0751e52b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Web.Generics.Tests.Infrastructure_InversionOfControl_Tests.Resolve_Controller_With_Generic_Controller_And_Specific_ViewModel threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Web.Generics.Tests.Infrastructure_InversionOfControl_Tests.Resolve_Controller_With_Generic_Controller_And_Specific_ViewModel() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Infrastructure_InversionOfControl_Tests.cs:line 93
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="034aaf2f-1d5f-4a94-9d38-92da54af800e" testId="781c6add-8d4a-cf64-6383-1134d95f165e" testName="Password_reset_for_existing_user_changes_password_and_returns_it" computerName="CLARINETE" startTime="2010-10-29T12:11:43.1405026-02:00" endTime="2010-10-29T12:11:43.1505026-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="034aaf2f-1d5f-4a94-9d38-92da54af800e">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="320d6187-3988-442a-8cb2-70d644b48853" testId="7c1f9829-2243-a68a-054d-4ef62fe678e9" testName="Register_fail_must_rollback_transaction" computerName="CLARINETE" startTime="2010-10-29T12:11:43.1505026-02:00" endTime="2010-10-29T12:11:43.1605026-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="320d6187-3988-442a-8cb2-70d644b48853">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fb777ff1-620a-43f7-bde3-43aa96626b0e" testId="8aafd531-d21c-00a8-ee90-e1b37e3a3694" testName="List_Posts_By_Date_Range" computerName="CLARINETE" duration="00:00:00.2914687" startTime="2010-10-29T12:11:43.1605026-02:00" endTime="2010-10-29T12:11:43.4605030-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb777ff1-620a-43f7-bde3-43aa96626b0e">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Inspira.Blog.Tests.Blog_Services.Initialize threw exception. System.Data.MetadataException: System.Data.MetadataException: Schema specified is not valid. Errors: 
+The relationship 'Inspira.Blog.DomainModel.FK_Posts_WebLog' was not loaded because the type 'Inspira.Blog.DomainModel.WebLog' is not available.
+The following information may be useful in resolving the previous error:
+The required property 'Owners' does not exist on the type 'Inspira.Blog.DomainModel.WebLog'.
+
+.</Message>
+          <StackTrace>    at System.Data.Metadata.Edm.ObjectItemCollection.LoadAssemblyFromCache(ObjectItemCollection objectItemCollection, Assembly assembly, Boolean loadReferencedAssemblies, EdmItemCollection edmItemCollection, Action`1 logLoadMessage)
+   at System.Data.Metadata.Edm.ObjectItemCollection.ImplicitLoadAssemblyForType(Type type, EdmItemCollection edmItemCollection)
+   at System.Data.Metadata.Edm.MetadataWorkspace.ImplicitLoadAssemblyForType(Type type, Assembly callingAssembly)
+   at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
+   at System.Data.Objects.ObjectContext.GetEntitySetFromContainer(EntityContainer container, Type entityCLRType, String exceptionParameterName)
+   at System.Data.Objects.ObjectContext.GetEntitySetForType(Type entityCLRType, String exceptionParameterName)
+   at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity]()
+   at Web.Generics.Infrastructure.DataAccess.EntityFramework.EntityFrameworkRepositoryContext.Query[T]() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Futures\Infrastructure\DataAccess\EntityFramework\EntityFrameworkRepositoryContext.cs:line 46
+   at Web.Generics.Infrastructure.DataAccess.EntityFramework.EntityFrameworkRepositoryContext.SaveOrUpdate[T](T obj) in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Futures\Infrastructure\DataAccess\EntityFramework\EntityFrameworkRepositoryContext.cs:line 52
+   at Web.Generics.ApplicationServices.DataAccess.GenericRepository`1.SaveOrUpdate(T obj) in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\ApplicationServices\DataAccess\GenericRepository.cs:line 46
+   at Inspira.Blog.Tests.Blog_Services.Initialize() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Blog_Services.cs:line 57
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2526b520-9e7c-45c9-9288-2a6f4b9d1ec8" testId="9fc42f36-ca29-aff9-0c1e-58648d096479" testName="Resolve_Controller_With_Generic_Implementations" computerName="CLARINETE" duration="00:00:00.0026109" startTime="2010-10-29T12:11:43.4705030-02:00" endTime="2010-10-29T12:11:43.4805031-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2526b520-9e7c-45c9-9288-2a6f4b9d1ec8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Web.Generics.Tests.Infrastructure_InversionOfControl_Tests.Resolve_Controller_With_Generic_Implementations threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Web.Generics.Tests.Infrastructure_InversionOfControl_Tests.Resolve_Controller_With_Generic_Implementations() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Infrastructure_InversionOfControl_Tests.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a1d256d6-036a-4e42-98f4-6eb756fcb8c7" testId="a2c49a2b-d39d-2796-5d55-e3bc20513b27" testName="InsertPostWithExistingTagsAndComments" computerName="CLARINETE" duration="00:00:00.0017178" startTime="2010-10-29T12:11:43.4805031-02:00" endTime="2010-10-29T12:11:43.4905031-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1d256d6-036a-4e42-98f4-6eb756fcb8c7">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Web.Generics.Tests.Infrastructure_Repository_Tests.TestInitialize threw exception. System.ApplicationException: System.ApplicationException: Session factory not configured. Did you call ApplicationManager.Initialize()?.</Message>
+          <StackTrace>    at Web.Generics.ApplicationManager.GetCurrentSession() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\ApplicationManager.cs:line 143
+   at Web.Generics.Infrastructure.DataAccess.NHibernate.NHibernateRepositoryContext..ctor() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\Infrastructure\DataAccess\NHibernate\NHibernateRepositoryContext.cs:line 37
+   at Web.Generics.Tests.ContextFactory.GetContext() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\ContextFactory.cs:line 41
+   at Web.Generics.Tests.Infrastructure_Repository_Tests.TestInitialize() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Infrastructure_Repository_Tests.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="974eede7-d7a0-4e9a-b13d-af748e239d10" testId="a7821dd2-9252-958d-d6a8-4c25750f0215" testName="Default_paginginfo_is_pageindex_1_and_pagesize_10_with_paging_disabled" computerName="CLARINETE" duration="00:00:00.0002620" startTime="2010-10-29T12:11:43.4905031-02:00" endTime="2010-10-29T12:11:43.5005031-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="974eede7-d7a0-4e9a-b13d-af748e239d10">
+    </UnitTestResult>
+    <UnitTestResult executionId="cb217867-5676-4335-aa76-b00b2b1ba8b1" testId="a8222d24-072c-d71d-3bd0-b76b0e3f4666" testName="Register_with_null_role_throws_argumentNullException" computerName="CLARINETE" startTime="2010-10-29T12:11:43.5005031-02:00" endTime="2010-10-29T12:11:43.5105031-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb217867-5676-4335-aa76-b00b2b1ba8b1">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b02b0549-fe4c-4639-aa62-f160b7d4677c" testId="aac57191-7373-4d93-174a-e11b361b9a1b" testName="Insert_child_does_not_load_children_v2" computerName="CLARINETE" duration="00:00:00.0008459" startTime="2010-10-29T12:11:43.5105031-02:00" endTime="2010-10-29T12:11:43.5205031-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b02b0549-fe4c-4639-aa62-f160b7d4677c">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Web.Generics.Tests.NHibernateSessionTests.Initialize threw exception. System.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at Web.Generics.Tests.NHibernateSessionTests.Initialize() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\NHibernateSessionTests.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9cc2b3c5-1adf-4f2e-8bdd-0438afe11821" testId="afec351d-c5bd-e807-4f9f-6c708da25c8f" testName="InsertPostWithNullableProperty" computerName="CLARINETE" duration="00:00:00.0008672" startTime="2010-10-29T12:11:43.5205031-02:00" endTime="2010-10-29T12:11:43.5205031-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9cc2b3c5-1adf-4f2e-8bdd-0438afe11821">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Web.Generics.Tests.Infrastructure_Repository_Tests.TestInitialize threw exception. System.ApplicationException: System.ApplicationException: Session factory not configured. Did you call ApplicationManager.Initialize()?.</Message>
+          <StackTrace>    at Web.Generics.ApplicationManager.GetCurrentSession() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\ApplicationManager.cs:line 143
+   at Web.Generics.Infrastructure.DataAccess.NHibernate.NHibernateRepositoryContext..ctor() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\Infrastructure\DataAccess\NHibernate\NHibernateRepositoryContext.cs:line 37
+   at Web.Generics.Tests.ContextFactory.GetContext() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\ContextFactory.cs:line 41
+   at Web.Generics.Tests.Infrastructure_Repository_Tests.TestInitialize() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Infrastructure_Repository_Tests.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f271bc2-d081-4afb-8f74-2a8291bfa2b7" testId="b4297581-ff1b-3999-5fd8-95b6036938c0" testName="Add_Comment_In_Post" computerName="CLARINETE" duration="00:00:00.0015783" startTime="2010-10-29T12:11:43.5305031-02:00" endTime="2010-10-29T12:11:43.5305031-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f271bc2-d081-4afb-8f74-2a8291bfa2b7">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Inspira.Blog.Tests.Blog_Services.Initialize threw exception. System.Data.MetadataException: System.Data.MetadataException: Schema specified is not valid. Errors: 
+The relationship 'Inspira.Blog.DomainModel.FK_Posts_WebLog' was not loaded because the type 'Inspira.Blog.DomainModel.WebLog' is not available.
+The following information may be useful in resolving the previous error:
+The required property 'Owners' does not exist on the type 'Inspira.Blog.DomainModel.WebLog'.
+
+.</Message>
+          <StackTrace>    at System.Data.Metadata.Edm.ObjectItemCollection.LoadAssemblyFromCache(ObjectItemCollection objectItemCollection, Assembly assembly, Boolean loadReferencedAssemblies, EdmItemCollection edmItemCollection, Action`1 logLoadMessage)
+   at System.Data.Metadata.Edm.ObjectItemCollection.ImplicitLoadAssemblyForType(Type type, EdmItemCollection edmItemCollection)
+   at System.Data.Metadata.Edm.MetadataWorkspace.ImplicitLoadAssemblyForType(Type type, Assembly callingAssembly)
+   at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
+   at System.Data.Objects.ObjectContext.GetEntitySetFromContainer(EntityContainer container, Type entityCLRType, String exceptionParameterName)
+   at System.Data.Objects.ObjectContext.GetEntitySetForType(Type entityCLRType, String exceptionParameterName)
+   at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity]()
+   at Web.Generics.Infrastructure.DataAccess.EntityFramework.EntityFrameworkRepositoryContext.Query[T]() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Futures\Infrastructure\DataAccess\EntityFramework\EntityFrameworkRepositoryContext.cs:line 46
+   at Web.Generics.Infrastructure.DataAccess.EntityFramework.EntityFrameworkRepositoryContext.SaveOrUpdate[T](T obj) in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Futures\Infrastructure\DataAccess\EntityFramework\EntityFrameworkRepositoryContext.cs:line 52
+   at Web.Generics.ApplicationServices.DataAccess.GenericRepository`1.SaveOrUpdate(T obj) in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\ApplicationServices\DataAccess\GenericRepository.cs:line 46
+   at Inspira.Blog.Tests.Blog_Services.Initialize() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Blog_Services.cs:line 57
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c357c504-9298-4249-9a0e-c435d8dd90fb" testId="b6819492-f9db-dcf2-0ded-3161c5b9aa32" testName="Log_With_Aspect" computerName="CLARINETE" duration="00:00:00.0010437" startTime="2010-10-29T12:11:43.5405031-02:00" endTime="2010-10-29T12:11:43.5405031-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c357c504-9298-4249-9a0e-c435d8dd90fb">
+    </UnitTestResult>
+    <UnitTestResult executionId="7e022ba5-5324-46bc-a0dc-f29b9b02d290" testId="c5c2e3d8-1b24-09f0-43aa-e4693e886451" testName="Register_with_valid_data_inserts_user_into_database_and_returns_success" computerName="CLARINETE" startTime="2010-10-29T12:11:43.5405031-02:00" endTime="2010-10-29T12:11:43.5505032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e022ba5-5324-46bc-a0dc-f29b9b02d290">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b8db6453-8afc-47f4-b2d6-efe53dd0969c" testId="c72f3490-fe46-9c05-8367-de895c625e81" testName="Password_resetfor_existing_user_with_invalid_validation_key_returns_null" computerName="CLARINETE" startTime="2010-10-29T12:11:43.5505032-02:00" endTime="2010-10-29T12:11:43.5505032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8db6453-8afc-47f4-b2d6-efe53dd0969c">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9e66dc93-45d2-4779-b03a-75c8fda2f731" testId="ca9b6d7d-c72c-ffd4-9266-ae65f3adb659" testName="InsertPostWithNewTagsAndComments" computerName="CLARINETE" duration="00:00:00.0009417" startTime="2010-10-29T12:11:43.5505032-02:00" endTime="2010-10-29T12:11:43.5605032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e66dc93-45d2-4779-b03a-75c8fda2f731">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Web.Generics.Tests.Infrastructure_Repository_Tests.TestInitialize threw exception. System.ApplicationException: System.ApplicationException: Session factory not configured. Did you call ApplicationManager.Initialize()?.</Message>
+          <StackTrace>    at Web.Generics.ApplicationManager.GetCurrentSession() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\ApplicationManager.cs:line 143
+   at Web.Generics.Infrastructure.DataAccess.NHibernate.NHibernateRepositoryContext..ctor() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\Infrastructure\DataAccess\NHibernate\NHibernateRepositoryContext.cs:line 37
+   at Web.Generics.Tests.ContextFactory.GetContext() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\ContextFactory.cs:line 41
+   at Web.Generics.Tests.Infrastructure_Repository_Tests.TestInitialize() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Infrastructure_Repository_Tests.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff39b462-6f85-43ca-99a4-43300d985ec5" testId="cb3eda27-b10b-b25b-3e1c-155f0c451f45" testName="Create_gridcolumns_2_items" computerName="CLARINETE" duration="00:00:00.0002352" startTime="2010-10-29T12:11:43.5605032-02:00" endTime="2010-10-29T12:11:43.5605032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff39b462-6f85-43ca-99a4-43300d985ec5">
+    </UnitTestResult>
+    <UnitTestResult executionId="743f4df1-4cd0-4468-9d03-641cdffb9eef" testId="e7a87bf2-4851-5b1c-7df0-92fdcafd03ca" testName="Resolve_Controller_With_Specific_Controller_And_ViewModel" computerName="CLARINETE" duration="00:00:00.0013131" startTime="2010-10-29T12:11:43.5605032-02:00" endTime="2010-10-29T12:11:43.5705032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="743f4df1-4cd0-4468-9d03-641cdffb9eef">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Web.Generics.Tests.Infrastructure_InversionOfControl_Tests.Resolve_Controller_With_Specific_Controller_And_ViewModel threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Web.Generics.Tests.Infrastructure_InversionOfControl_Tests.Resolve_Controller_With_Specific_Controller_And_ViewModel() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Infrastructure_InversionOfControl_Tests.cs:line 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0a8123f-3248-4081-8973-925aec3d86a1" testId="e8e3591b-e3ff-7a0c-2871-7ffb31567b9f" testName="SelectWithLambdaExpressions" computerName="CLARINETE" duration="00:00:00.0009919" startTime="2010-10-29T12:11:43.5705032-02:00" endTime="2010-10-29T12:11:43.5805032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0a8123f-3248-4081-8973-925aec3d86a1">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Web.Generics.Tests.Infrastructure_Repository_Tests.TestInitialize threw exception. System.ApplicationException: System.ApplicationException: Session factory not configured. Did you call ApplicationManager.Initialize()?.</Message>
+          <StackTrace>    at Web.Generics.ApplicationManager.GetCurrentSession() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\ApplicationManager.cs:line 143
+   at Web.Generics.Infrastructure.DataAccess.NHibernate.NHibernateRepositoryContext..ctor() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics\Infrastructure\DataAccess\NHibernate\NHibernateRepositoryContext.cs:line 37
+   at Web.Generics.Tests.ContextFactory.GetContext() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\ContextFactory.cs:line 41
+   at Web.Generics.Tests.Infrastructure_Repository_Tests.TestInitialize() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Infrastructure_Repository_Tests.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aa03c8f7-54ca-4e40-a900-3b99a6547080" testId="ecfad25d-faaa-fe1a-4b04-cd16862ed8d3" testName="User_changing_password_with_correct_password_and_valid_new_password_returns_success" computerName="CLARINETE" startTime="2010-10-29T12:11:43.5805032-02:00" endTime="2010-10-29T12:11:43.5905032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa03c8f7-54ca-4e40-a900-3b99a6547080">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="320121f9-3e8e-492c-bf9b-dbd2b4a8df02" testId="ef70adab-cbca-46bf-0d19-52da0a032597" testName="Resolve_With_Chaining" computerName="CLARINETE" duration="00:00:00.0011776" startTime="2010-10-29T12:11:43.5905032-02:00" endTime="2010-10-29T12:11:43.5905032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="320121f9-3e8e-492c-bf9b-dbd2b4a8df02">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Web.Generics.Tests.Infrastructure_InversionOfControl_Tests.Resolve_With_Chaining threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Web.Generics.Tests.Infrastructure_InversionOfControl_Tests.Resolve_With_Chaining() in C:\Users\thiago.alves\Projects\Web.Generics\Web.Generics.Tests\Infrastructure_InversionOfControl_Tests.cs:line 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8cceeb77-d1e5-487e-a677-fa40d87b6cc3" testId="f706643b-9f9f-e05f-ab65-95347000f26f" testName="Register_with_null_data_throws_argumentnullexception" computerName="CLARINETE" startTime="2010-10-29T12:11:43.5905032-02:00" endTime="2010-10-29T12:11:43.6005032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cceeb77-d1e5-487e-a677-fa40d87b6cc3">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="365fe842-9eaa-4db7-a6cb-350c8a7d30b9" testId="ff4f249f-2e32-9cfc-1f5a-e354a09a65e9" testName="GenerateValidationKey_for_nonexisting_email_returns_null" computerName="CLARINETE" startTime="2010-10-29T12:11:43.6005032-02:00" endTime="2010-10-29T12:11:43.6105032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="365fe842-9eaa-4db7-a6cb-350c8a7d30b9">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1784ccea-c957-458e-99e2-e372e120f727" testId="fff7fde5-aa39-2877-3bc5-50f06ba7731e" testName="Validate_existing_user_with_incorrect_password_returns_false" computerName="CLARINETE" startTime="2010-10-29T12:11:43.6105032-02:00" endTime="2010-10-29T12:11:43.6205033-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1784ccea-c957-458e-99e2-e372e120f727">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+Type is not resolved for member 'NHibernate.Cfg.HibernateConfigException,NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
