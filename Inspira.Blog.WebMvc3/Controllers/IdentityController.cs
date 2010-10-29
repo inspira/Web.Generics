@@ -127,7 +127,7 @@ namespace Inspira.Blog.WebMvc3.Controllers
             //custom validation
             if (viewModel.NewPassword != viewModel.Confirm)
             {
-                ModelState.AddModelError("PASSAWORD_AND_CONFIRM_DONT_MACHT", "");
+                ModelState.AddModelError("PASSWORD_AND_CONFIRM_DONT_MATCHT", "");
             }
             if (viewModel.Key == "123")
             {
@@ -159,7 +159,7 @@ namespace Inspira.Blog.WebMvc3.Controllers
             
             if (viewModel.NewPassword != viewModel.ConfirmNewPassword)
             {
-                ModelState.AddModelError("PASSAWORD_AND_CONFIRM_DONT_MACHT", "");                
+                ModelState.AddModelError("PASSWORD_AND_CONFIRM_DONT_MATCH", "");                
             }
             else
             {
