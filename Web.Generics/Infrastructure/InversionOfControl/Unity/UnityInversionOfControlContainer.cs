@@ -80,5 +80,10 @@ namespace Web.Generics.Infrastructure.InversionOfControl.Unity
         {
             container.RegisterInstance<T>(instance);
         }
+
+        public void RegisterDelayedInstance<T>(Func<T> instance)
+        {
+            //container.RegisterInstance(instance.Invoke();
+        }
     }
 }

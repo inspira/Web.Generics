@@ -38,6 +38,7 @@ using Web.Generics.Infrastructure.Logging;
 using Web.Generics.Infrastructure.InversionOfControl.Unity;
 using FluentNHibernate.Conventions.Helpers;
 using Web.Generics.Infrastructure.DataAccess.FluentNHibernate;
+using Web.Generics.Infrastructure.InversionOfControl.StructureMap;
 
 namespace Web.Generics
 {
@@ -52,11 +53,13 @@ namespace Web.Generics
             ApplicationConfiguration = config;
 
             SessionFactory = CreateSessionFactory();
-            Container = new UnityInversionOfControlContainer();
+            Container = new StructureMapInversionOfControlContainer();
 
             var domainAssembly = config.DomainAssembly;
 
-			Container.RegisterType<IRepositoryContext, NHibernateRepositoryContext>();
+            Container.RegisterType<IRepositoryContext, NHibernateRepositoryContext>();
+            Container.RegisterType(typeof(IRepository<>), typeof(GenericNHibernateRepository<>));
+            Container.RegisterDelayedInstance<ISession>(() => { return ApplicationManager.SessionFactory.OpenSession(); });
 
             var mapper = config.InversionOfControl.MapperInstance;
             if (mapper != null)

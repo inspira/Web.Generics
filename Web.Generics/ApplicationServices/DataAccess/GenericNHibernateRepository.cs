@@ -33,11 +33,7 @@ namespace Web.Generics.ApplicationServices.DataAccess
 	public class GenericNHibernateRepository<T> : GenericRepository<T> where T : class
 	{
 		protected ISession session;
-        [InjectionConstructor]
-		public GenericNHibernateRepository():base(new NHibernateRepositoryContext(ApplicationManager.SessionFactory.GetCurrentSession()))
-		{
-            this.session = ApplicationManager.SessionFactory.GetCurrentSession();
-		}
+
         public GenericNHibernateRepository(ISession session) : base(new NHibernateRepositoryContext(session))
         {
             this.session = session;

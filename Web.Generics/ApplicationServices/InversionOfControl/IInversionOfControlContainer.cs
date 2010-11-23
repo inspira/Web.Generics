@@ -28,6 +28,13 @@ namespace Web.Generics.ApplicationServices.InversionOfControl
 		void RegisterType<TFrom, TTo>() where TTo : TFrom;
 		void RegisterType(Type interfaceType, Type implementationType);
         void RegisterInstance<T>(T obj);
+
+        /// <summary>
+        /// Passes a parameter to the constructor in the moment the class is instantiated
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="obj"></param>
+        void RegisterDelayedInstance<T>(Func<T> delayedExpression);
 		T Resolve<T>();
 		Object Resolve(Type t);
     }
