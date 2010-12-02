@@ -24,7 +24,7 @@ along with Web.Generics.  If not, see <http://www.gnu.org/licenses/>.
 using System.ComponentModel.DataAnnotations;
 using System.Text.RegularExpressions;
 
-namespace Web.Generics.Validators
+namespace Web.Generics.UserInterface.Validators
 {
     public class CnpjAttribute : ValidationAttribute
     {
