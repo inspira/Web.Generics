@@ -47,13 +47,13 @@ namespace Web.Generics.DomainServices
 		virtual public void SaveOrUpdate(T obj)
 		{
 			this.genericRepository.SaveOrUpdate(obj);
-			this.genericRepository.SaveChanges();
+			//this.genericRepository.SaveChanges();
 		}
 
         virtual public void Delete(T obj)
 		{
 			this.genericRepository.Delete(obj);
-			this.genericRepository.SaveChanges();
+			//this.genericRepository.SaveChanges();
 		}
 
 		virtual public IList<T> Select()
