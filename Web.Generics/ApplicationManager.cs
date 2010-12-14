@@ -59,7 +59,7 @@ namespace Web.Generics
 
             Container.RegisterType<IRepositoryContext, NHibernateRepositoryContext>();
             Container.RegisterType(typeof(IRepository<>), typeof(GenericNHibernateRepository<>));
-            Container.RegisterDelayedInstance<ISession>(() => { return ApplicationManager.SessionFactory.OpenSession(); });
+            Container.RegisterDelayedInstance<ISession>(() => { return ApplicationManager.SessionFactory.GetCurrentSession(); });
 
             var mapper = config.InversionOfControl.MapperInstance;
             if (mapper != null)
