@@ -25,7 +25,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web.Mvc;
+using System.Web.Mvc.Html;
 using System.Collections;
+using System.Linq.Expressions;
+using System.Web.Routing;
 
 namespace Web.Generics.UserInterface.Extensions
 {
@@ -43,5 +46,54 @@ namespace Web.Generics.UserInterface.Extensions
             result += "</ul>";
             return MvcHtmlString.Create(result);
         }
+
+        public static MvcHtmlString RadioButtonListFor<TModel, TProperty>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TProperty>> targetProperty, IDictionary dataSource, object htmlOptions)
+        {
+            var result = new StringBuilder();
+            foreach (var key in dataSource.Keys)
+            {
+                var value = dataSource[key];
+                result.Append(htmlHelper.RadioButtonFor(targetProperty, key, htmlOptions) + " " + value);
+            }
+            return MvcHtmlString.Create(result.ToString());
+        }
+
+        public static MvcHtmlString CheckBoxListFor<TModel, TProperty>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TProperty[]>> expression, MultiSelectList multiSelectList, object htmlAttributes = null)
+        {
+            //Derive property name for checkbox name
+            MemberExpression body = expression.Body as MemberExpression;
+            string propertyName = htmlHelper.ViewContext.ViewData.TemplateInfo.GetFullHtmlFieldName(ExpressionHelper.GetExpressionText(expression));
+
+
+            //Get currently select values from the ViewData model
+            TProperty[] list = expression.Compile().Invoke(htmlHelper.ViewData.Model);
+
+            //Convert selected value list to a List<string> for easy manipulation
+            List<string> selectedValues = new List<string>();
+
+            if (list != null)
+            {
+                selectedValues = new List<TProperty>(list).ConvertAll<string>(delegate(TProperty i) { return i.ToString(); });
+            }
+
+            //Create div
+            TagBuilder divTag = new TagBuilder("div");
+            divTag.MergeAttributes(new RouteValueDictionary(htmlAttributes), true);
+
+            //Add checkboxes
+            foreach (SelectListItem item in multiSelectList)
+            {
+                divTag.InnerHtml += String.Format("<div><input type=\"checkbox\" name=\"{0}\" id=\"{0}_{1}\" " +
+                                                    "value=\"{1}\" {2} /><label for=\"{0}_{1}\">{3}</label></div>",
+                                                    propertyName,
+                                                    item.Value,
+                                                    selectedValues.Contains(item.Value) ? "checked=\"checked\"" : "",
+                                                    item.Text);
+            }
+
+            return MvcHtmlString.Create(divTag.ToString());
+        }
+
+             
     }
 }
