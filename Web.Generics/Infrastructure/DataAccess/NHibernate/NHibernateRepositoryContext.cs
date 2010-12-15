@@ -32,6 +32,8 @@ namespace Web.Generics.Infrastructure.DataAccess.NHibernate
     public class NHibernateRepositoryContext : IRepositoryContext
     {
         private ISession session;
+        public ISession Session { get { return this.session; } set { this.session = value; } }
+
 		public NHibernateRepositoryContext()
 		{
 			this.session = ApplicationManager.GetCurrentSession();
@@ -68,6 +70,9 @@ namespace Web.Generics.Infrastructure.DataAccess.NHibernate
             return this.session.Get<T>(id);
         }
 
-        public ISession Session { get { return this.session; } set { this.session = value; } }
-	}
+        public T Load<T>(object id)
+        {
+            return this.session.Load<T>(id);
+        }
+    }
 }

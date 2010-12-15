@@ -30,6 +30,7 @@ namespace Web.Generics.ApplicationServices.DataAccess
 {
     public interface IRepository<T> : IQueryable<T>
     {
+        T Load(object id);
         IQueryable<T> Query();
         void SaveOrUpdate(T obj);
         void Delete(T obj);

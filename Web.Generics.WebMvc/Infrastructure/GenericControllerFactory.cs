@@ -30,6 +30,7 @@ using Web.Generics.ApplicationServices;
 using Web.Generics.ApplicationServices.InversionOfControl;
 using Web.Generics.UserInterface;
 using System.Reflection;
+using System.Web;
 
 namespace Web.Generics.Web.Mvc.Infrastructure
 {
@@ -64,12 +65,7 @@ namespace Web.Generics.Web.Mvc.Infrastructure
 		protected override IController GetControllerInstance(RequestContext requestContext, Type controllerType)
 		{
 			if (controllerType != null) return container.Resolve(controllerType) as IController;
-			return null;
-		}
-
-		public T Resolve<T>(T type)
-		{
-			return container.Resolve<T>();
+            throw new HttpException(404, String.Format("The controller for path '{0}' could not be found or it does not implement IController.", requestContext.HttpContext.Request.Path));
 		}
 	}
 }

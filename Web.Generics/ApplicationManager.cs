@@ -48,6 +48,11 @@ namespace Web.Generics
 		public static ApplicationConfiguration ApplicationConfiguration { get; set; }
 		public static IInversionOfControlContainer Container { get; set; }
 
+        static ApplicationManager()
+        {
+            ApplicationConfiguration = new ApplicationConfiguration();
+        }
+
         public static void Initialize(ApplicationConfiguration config)
         {
             ApplicationConfiguration = config;
