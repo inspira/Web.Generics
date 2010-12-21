@@ -38,13 +38,12 @@ namespace Web.Generics.Web.Captcha
 
         private Random random = new Random(DateTime.Now.Second);
 
-        private int width, height, length;
+        private int width, height;
 
         public Captcha(int width, int height, int length)
         {
             this.width = width;
             this.height = height;
-            this.length = length;
 
             if (Text == null)
                 Text = Randomize(length);

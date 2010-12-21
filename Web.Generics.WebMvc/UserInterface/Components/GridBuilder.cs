@@ -68,20 +68,15 @@ namespace Web.Generics.UserInterface.Components
 
 		public IQueryable<T> GetDataSourceByParameters<T>(IQueryable<T> query)
 		{
-			// filtering
-
 			// sorting
 			if (grid.SortingInfo.SortProperty != null)
 			{
-				var mySortExpression = grid.SortingInfo.GetSortExpression<T>();
 				if (grid.SortingInfo.Order == SortOrder.Ascending)
 				{
-					// query = query.OrderBy(mySortExpression);
 					grid.SortingInfo.Order = SortOrder.Descending;
 				}
 				else
 				{
-					// query = query.OrderByDescending(mySortExpression);
 					grid.SortingInfo.Order = SortOrder.Ascending;
 				}
 			}

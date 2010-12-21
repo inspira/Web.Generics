@@ -26,7 +26,6 @@ using System.Linq;
 using System.Text;
 using NHibernate;
 using Web.Generics.Infrastructure.DataAccess.NHibernate;
-using Microsoft.Practices.Unity;
 
 namespace Web.Generics.ApplicationServices.DataAccess
 {

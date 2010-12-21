@@ -61,9 +61,7 @@ namespace Web.Generics.UserInterface.Extensions
         public static MvcHtmlString CheckBoxListFor<TModel, TProperty>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TProperty[]>> expression, MultiSelectList multiSelectList, object htmlAttributes = null)
         {
             //Derive property name for checkbox name
-            MemberExpression body = expression.Body as MemberExpression;
             string propertyName = htmlHelper.ViewContext.ViewData.TemplateInfo.GetFullHtmlFieldName(ExpressionHelper.GetExpressionText(expression));
-
 
             //Get currently select values from the ViewData model
             TProperty[] list = expression.Compile().Invoke(htmlHelper.ViewData.Model);
