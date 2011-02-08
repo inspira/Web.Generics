@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <doc>
   <assembly>
@@ -13,4 +14,21 @@
     <member name="M:System.Web.WebPages.Deployment.WebPagesDeployment.IsEnabled(System.String)"></member>
     <member name="M:System.Web.WebPages.Deployment.WebPagesDeployment.IsExplicitlyDisabled(System.String)"></member>
   </members>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Web.WebPages.Deployment</name>
+  </assembly>
+  <members>
+    <member name="T:System.Web.WebPages.Deployment.PreApplicationStartCode"></member>
+    <member name="M:System.Web.WebPages.Deployment.PreApplicationStartCode.Start"></member>
+    <member name="T:System.Web.WebPages.Deployment.WebPagesDeployment"></member>
+    <member name="F:System.Web.WebPages.Deployment.WebPagesDeployment.CacheKeyPrefix"></member>
+    <member name="M:System.Web.WebPages.Deployment.WebPagesDeployment.GetAssemblyPath(System.Version)"></member>
+    <member name="M:System.Web.WebPages.Deployment.WebPagesDeployment.GetVersion(System.String)"></member>
+    <member name="M:System.Web.WebPages.Deployment.WebPagesDeployment.IsEnabled(System.String)"></member>
+    <member name="M:System.Web.WebPages.Deployment.WebPagesDeployment.IsExplicitlyDisabled(System.String)"></member>
+  </members>
+>>>>>>> ce334e8bd830b1e538b90e909fe4103b104f07e7
 </doc>

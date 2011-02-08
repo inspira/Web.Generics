@@ -37,7 +37,10 @@ using Web.Generics.Infrastructure.DataAccess.NHibernate;
 using Web.Generics.Infrastructure.Logging;
 using FluentNHibernate.Conventions.Helpers;
 using Web.Generics.Infrastructure.DataAccess.FluentNHibernate;
+<<<<<<< HEAD
 using System.IO;
+=======
+>>>>>>> ce334e8bd830b1e538b90e909fe4103b104f07e7
 
 namespace Web.Generics
 {
@@ -57,7 +60,11 @@ namespace Web.Generics
             ApplicationConfiguration = config;
 
             SessionFactory = CreateSessionFactory();
+<<<<<<< HEAD
 			Container = (IInversionOfControlContainer)Activator.CreateInstanceFrom(Path.Combine(config.ApplicationRootDir, "Web.Generics.IoC.StructureMap.dll"), "Web.Generics.Infrastructure.InversionOfControl.StructureMap.StructureMapInversionOfControlContainer").Unwrap();
+=======
+			Container = (IInversionOfControlContainer)Activator.CreateInstanceFrom("Web.Generics.IoC.StructureMap.dll", "Web.Generics.Infrastructure.InversionOfControl.StructureMap.StructureMapInversionOfControlContainer").Unwrap();
+>>>>>>> ce334e8bd830b1e538b90e909fe4103b104f07e7
 			
             Container.RegisterType<IRepositoryContext, NHibernateRepositoryContext>();
             Container.RegisterType(typeof(IRepository<>), typeof(GenericNHibernateRepository<>));
