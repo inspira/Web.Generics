@@ -28,17 +28,29 @@ using Web.Generics.Web.Mvc.Infrastructure;
 using System.Web.Mvc;
 using System.Reflection;
 using Web.Generics.ApplicationServices.InversionOfControl;
+using NHibernate;
+using System.Web;
 
 namespace Web.Generics
 {
     public static partial class MvcApplicationManager
     {
+        private const String NHIBERNATE_SESSION = "NHibernate.Session";
         public static void DefineControllerFactory()
         {
 			var domainAssembly = ApplicationManager.ApplicationConfiguration.DomainAssembly;
 			var container = ApplicationManager.Container;
             var controllerFactory = new GenericControllerFactory(domainAssembly, container);
             ControllerBuilder.Current.SetControllerFactory(controllerFactory);
+
+            /*ApplicationManager.Container.RegisterDelayedInstance<ISession>(() => {
+                if (!HttpContext.Current.Items.Contains(NHIBERNATE_SESSION))
+                {
+                    var session = ApplicationManager.SessionFactory.OpenSession();
+                    HttpContext.Current.Items.Add(NHIBERNATE_SESSION, session);
+                }
+                return (ISession)HttpContext.Current.Items[NHIBERNATE_SESSION];
+            });*/
         }
     }
 }

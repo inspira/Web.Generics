@@ -35,10 +35,9 @@ using FluentNHibernate.Automapping;
 using Web.Generics.ApplicationServices.DataAccess;
 using Web.Generics.Infrastructure.DataAccess.NHibernate;
 using Web.Generics.Infrastructure.Logging;
-using Web.Generics.Infrastructure.InversionOfControl.Unity;
 using FluentNHibernate.Conventions.Helpers;
 using Web.Generics.Infrastructure.DataAccess.FluentNHibernate;
-using Web.Generics.Infrastructure.InversionOfControl.StructureMap;
+using System.IO;
 
 namespace Web.Generics
 {
@@ -48,15 +47,18 @@ namespace Web.Generics
 		public static ApplicationConfiguration ApplicationConfiguration { get; set; }
 		public static IInversionOfControlContainer Container { get; set; }
 
+        static ApplicationManager()
+        {
+            ApplicationConfiguration = new ApplicationConfiguration();
+        }
+
         public static void Initialize(ApplicationConfiguration config)
         {
             ApplicationConfiguration = config;
 
             SessionFactory = CreateSessionFactory();
-            Container = new StructureMapInversionOfControlContainer();
-
-            var domainAssembly = config.DomainAssembly;
-
+			Container = (IInversionOfControlContainer)Activator.CreateInstanceFrom(Path.Combine(config.ApplicationRootDir, "Web.Generics.IoC.StructureMap.dll"), "Web.Generics.Infrastructure.InversionOfControl.StructureMap.StructureMapInversionOfControlContainer").Unwrap();
+			
             Container.RegisterType<IRepositoryContext, NHibernateRepositoryContext>();
             Container.RegisterType(typeof(IRepository<>), typeof(GenericNHibernateRepository<>));
             Container.RegisterDelayedInstance<ISession>(() => { return ApplicationManager.SessionFactory.GetCurrentSession(); });
@@ -68,29 +70,6 @@ namespace Web.Generics
             }
 
 			log4net.Config.XmlConfigurator.Configure();
-
-            // DefineControllerFactory(domainAssembly, container);
-        }
-
-		private static void Configure(IInversionOfControlMapper mapper)
-        {
-            //Configure<NHibernateRepositoryContext, UnityInversionOfControlContainer>();
-        }
-
-        private static void Configure<RepositoryContextT, InversionOfControlT>(IInversionOfControlMapper mapper)
-        {
-            //// define contexto padrão para os repositórios
-            //container.RegisterInstance<IRepositoryContext>(repositoryContext);
-
-            //ControllerBuilder.Current.SetControllerFactory(new GenericControllerFactory(container));
-
-            //if (repositoryContext is NHibernateRepositoryContext)
-            //{
-            //    container.RegisterInstance<ISession>(FluentNHibernateHelper.OpenSession());
-            //}
-
-            //// chama custom mapper (IoC)
-            //mapper.DefineMappings(container);
         }
 
         public static ISessionFactory CreateSessionFactory()

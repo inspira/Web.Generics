@@ -62,5 +62,11 @@ namespace Web.Generics.Infrastructure.DataAccess.EntityFramework
         {
 			throw new NotImplementedException();
         }
+
+
+        public T Load<T>(object id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

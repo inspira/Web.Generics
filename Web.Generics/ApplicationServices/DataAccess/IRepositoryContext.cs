@@ -25,7 +25,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using NHibernate.Cfg;
-using System.Data.Objects;
 
 namespace Web.Generics.ApplicationServices.DataAccess
 {
@@ -36,5 +35,6 @@ namespace Web.Generics.ApplicationServices.DataAccess
         void Delete(Object obj);
         IQueryable<T> Query<T>() where T : class;
         T SelectById<T>(object id);
+        T Load<T>(object id);
     }
 }

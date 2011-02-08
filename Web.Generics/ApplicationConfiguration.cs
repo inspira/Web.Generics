@@ -63,5 +63,7 @@ namespace Web.Generics
 			}
             public IInversionOfControlMapper MapperInstance { get; set; }
         }
+
+        public String ApplicationRootDir { get; set; }
     }
 }

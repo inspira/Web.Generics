@@ -122,5 +122,10 @@ namespace Web.Generics.ApplicationServices.DataAccess
 			var pagedList = query.ToList();
 			return pagedList;
 		}
-	}
+
+        public T Load(object id)
+        {
+            return this.context.Load<T>(id);
+        }
+    }
 }
