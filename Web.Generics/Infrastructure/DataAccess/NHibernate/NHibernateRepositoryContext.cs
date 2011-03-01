@@ -36,7 +36,7 @@ namespace Web.Generics.Infrastructure.DataAccess.NHibernate
 
 		public NHibernateRepositoryContext()
 		{
-			this.session = ApplicationManager.GetCurrentSession();
+			this.session = ApplicationManager.SessionFactory.GetCurrentSession();
 		}
 
 		internal NHibernateRepositoryContext(ISession session)

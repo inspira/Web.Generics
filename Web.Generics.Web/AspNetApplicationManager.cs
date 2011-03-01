@@ -54,7 +54,6 @@ namespace Web.Generics
                 }
                 // else session.Flush();
 
-                Trace.WriteLine(DateTime.Now + "    Closing session(" + HttpContext.Current.Request.RawUrl + ")", "NHTests");
                 session.Close();
             }
         }

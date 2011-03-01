@@ -56,7 +56,9 @@ namespace Web.Generics
             ApplicationConfiguration = config;
 
             SessionFactory = CreateSessionFactory();
-			Container = (IInversionOfControlContainer)Activator.CreateInstanceFrom("Web.Generics.IoC.StructureMap.dll", "Web.Generics.Infrastructure.InversionOfControl.StructureMap.StructureMapInversionOfControlContainer").Unwrap();
+            var assembly = System.Reflection.Assembly.Load("Web.Generics.IoC.StructureMap, Version=3.1.0.0, Culture=neutral, PublicKeyToken=36a1643a1b1a06e1");
+            Type containerType = assembly.GetType("Web.Generics.Infrastructure.InversionOfControl.StructureMap.StructureMapInversionOfControlContainer");
+            Container = (IInversionOfControlContainer)Activator.CreateInstance(containerType);
 			
             Container.RegisterType<IRepositoryContext, NHibernateRepositoryContext>();
             Container.RegisterType(typeof(IRepository<>), typeof(GenericNHibernateRepository<>));
@@ -73,8 +75,6 @@ namespace Web.Generics
 
         public static ISessionFactory CreateSessionFactory()
         {
-            Trace.WriteLine(DateTime.Now + "    Creating a new session factory", "NHTests");
-
             var nhConfiguration = new Configuration();
 
             var configPath = ApplicationConfiguration.NHibernate.ConfigurationFilePath;
@@ -89,7 +89,11 @@ namespace Web.Generics
             }
             //return configuration.BuildSessionFactory();
 
-            var fluentConfiguration = ApplicationConfiguration.Fluent.MappingConfigurationInstance;
+            IAutomappingConfiguration fluentConfiguration = ApplicationConfiguration.Fluent.MappingConfigurationInstance;
+            if (fluentConfiguration == null) {
+                fluentConfiguration = new DefaultAutomappingConfiguration();
+            }
+
             var assembly = ApplicationConfiguration.DomainAssembly;
 
 			var autoMap = AutoMap.Assembly(assembly, fluentConfiguration);
@@ -118,13 +122,6 @@ namespace Web.Generics
 
             return sessionFactory;
         }
-
-        public static ISession GetCurrentSession()
-        {
-            if (SessionFactory == null) throw new ApplicationException("Session factory not configured. Did you call ApplicationManager.Initialize()?");
-            return SessionFactory.GetCurrentSession();
-        }
-
 
         public static void Initialize(System.Reflection.Assembly domainAssembly, System.Reflection.Assembly infrastructureAssembly, DefaultAutomappingConfiguration mappingConfiguration, IInversionOfControlMapper inversionOfControlMapper)
         {
