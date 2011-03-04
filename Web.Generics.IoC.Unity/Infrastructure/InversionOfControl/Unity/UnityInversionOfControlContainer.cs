@@ -1,5 +1,5 @@
 /*
-Copyright 2010 Inspira Tecnologia.
+Copyright 2010-2011 Inspira Tecnologia.
 All Rights Reserved.
 
 Contact: Thiago Alves <thiago.alves@inspira.com.br>

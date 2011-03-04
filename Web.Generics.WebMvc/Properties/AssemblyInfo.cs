@@ -1,5 +1,5 @@
-﻿/*
-Copyright 2010 Inspira Tecnologia.
+/*
+Copyright 2010-2011 Inspira Tecnologia.
 All Rights Reserved.
 
 Contact: Thiago Alves <thiago.alves@inspira.com.br>
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 
 [assembly: ComVisible(false)]
 
-[assembly: AssemblyVersion("3.1.0.0")]
-[assembly: AssemblyFileVersion("3.1.0.*")]
+[assembly: AssemblyVersion("3.1.0.*")]
+[assembly: AssemblyFileVersion("3.1.0.0")]

@@ -1,5 +1,5 @@
 ﻿/*
-Copyright 2010 Inspira Tecnologia.
+Copyright 2010-2011 Inspira Tecnologia.
 All Rights Reserved.
 
 Contact: Thiago Alves <thiago.alves@inspira.com.br>
@@ -30,9 +30,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Web.Generics.Futures")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("Inspira")]
 [assembly: AssemblyProduct("Web.Generics.Futures")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2010")]
+[assembly: AssemblyCopyright("Copyright © Inspira 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -54,5 +54,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("3.1.0.*")]
+[assembly: AssemblyFileVersion("3.1.0.0")]
